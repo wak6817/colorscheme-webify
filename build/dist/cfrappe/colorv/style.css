@@ -1,84 +1,84 @@
 a:link {
-  color: var(--blue) !important;
+  color: var(--blue);
 }
 
 a:visited {
-  color: var(--mauve) !important;
+  color: var(--mauve);
 }
 
 button, input, textarea, select, list {
-  color: var(--text) !important;
-  background-color: var(--base) !important;
+  color: var(--text);
+  background-color: var(--base);
   border-color: var(--mauve)
 }
 
 button:disabled {
-  background-color: var(--crust) !important;
+  background-color: var(--crust);
 }/* import this file in every html test*/
 
 body {
-  background-color: var(--base) !important;
+  background-color: var(--base);
 }
 
 hr {
-  color: var(--rosewater) !important;
+  color: var(--rosewater);
 }h1 {
-  color: var(--text) !important;
+  color: var(--text);
 }
 
 h2, h3, h4, h5, h6, list, table, form, details {
-  color: var(--subtext1) !important;
+  color: var(--subtext1);
 }
 
 p, blockquote, pre, ul, ol, summary {
-  color: var(--subtext0) !important;
+  color: var(--subtext0);
 }
 
 mark {
-  color: var(--yellow) !important;
-  opacity: 75% !important;
+  color: var(--yellow);
+  opacity: 75%;
 }
 
 del {
-  color: var(--red) !important;
+  color: var(--red);
 }
 
 strong {
-  color: var(--text) !important;
+  color: var(--text);
 }
 
 code {
-  color: var(--green) !important;
+  color: var(--green);
 }
 
 th {
-  color: var(--sapphire) !important;
+  color: var(--sapphire);
 }:root {
-  --rosewater: #f2d5cf !important;
-  --flamingo: #eebebe !important;
-  --pink: #f4b8e4 !important;
-  --mauve: #ca9ee6 !important;
-  --red: #e78284 !important;
-  --maroon: #ea999c !important;
-  --peach: #ef9f76 !important;
-  --yellow: #e5c890 !important;
-  --green: #a6d189 !important;
-  --teal: #81c8be !important;
-  --sky: #99d1db !important;
-  --sapphire: #85c1dc !important;
-  --blue: #8caaee !important;
-  --lavender: #babbf1 !important;
+  --rosewater: #f2d5cf;
+  --flamingo: #eebebe;
+  --pink: #f4b8e4;
+  --mauve: #ca9ee6;
+  --red: #e78284;
+  --maroon: #ea999c;
+  --peach: #ef9f76;
+  --yellow: #e5c890;
+  --green: #a6d189;
+  --teal: #81c8be;
+  --sky: #99d1db;
+  --sapphire: #85c1dc;
+  --blue: #8caaee;
+  --lavender: #babbf1;
 
-  --text: #c6d0f5 !important;
-  --subtext1: #b5bfe2 !important;
-  --subtext0: #a5adce !important;
-  --overlay2: #949cbb !important;
-  --overlay1: #838ba7 !important;
-  --overlay0: #737994 !important;
-  --surface2: #626880 !important;
-  --surface1: #51576d !important;
-  --surface0: #414559 !important;
-  --base: #303446 !important;
-  --mantle: #292c3c !important;
-  --crust: #232634 !important;
+  --text: #c6d0f5;
+  --subtext1: #b5bfe2;
+  --subtext0: #a5adce;
+  --overlay2: #949cbb;
+  --overlay1: #838ba7;
+  --overlay0: #737994;
+  --surface2: #626880;
+  --surface1: #51576d;
+  --surface0: #414559;
+  --base: #303446;
+  --mantle: #292c3c;
+  --crust: #232634;
 }

@@ -7,5 +7,4 @@ cat "$ROOT/src/cmocha/colorv/interactions.css" \
     "$ROOT/src/cmocha/colorv/other.css" \
     "$ROOT/src/cmocha/colorv/text.css" \
     "$ROOT/src/cmocha/trans.css" \
-    | lua "$ROOT/build/add-important.lua" \
     > "$ROOT/build/dist/cmocha/colorv/style.css" # make sure it exists empty

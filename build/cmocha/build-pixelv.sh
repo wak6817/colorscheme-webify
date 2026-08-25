@@ -9,7 +9,6 @@ cat "$ROOT/src/cmocha/colorv/interactions.css" \
     "$ROOT/src/cmocha/pixelv/fonts.css" \
     "$ROOT/src/cmocha/pixelv/margins.css" \
     "$ROOT/src/cmocha/trans.css" \
-    | lua "$ROOT/build/add-important.lua" \
     > "$ROOT/build/dist/cmocha/pixelv/style.css" # make sure it exists empty
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/cmocha/pixelv/"

@@ -1,73 +1,73 @@
 a:link {
-  color: var(--nord9) !important;
+  color: var(--nord9);
 }
 
 a:visited {
-  color: var(--nord15) !important;
+  color: var(--nord15);
 }
 
 button, input, textarea, select, list {
-  color: var(--nord5) !important;
-  background-color: var(--nord1) !important;
+  color: var(--nord5);
+  background-color: var(--nord1);
   border-color: var(--nord15)
 }
 
 button:disabled {
-  background-color: var(--nord0) !important;
+  background-color: var(--nord0);
 }/* import this file in every html test*/
 
 body {
-  background-color: var(--nord1) !important;
+  background-color: var(--nord1);
 }
 
 hr {
-  color: var(--nord7) !important;
+  color: var(--nord7);
 }h1 {
-  color: var(--nord6) !important;
+  color: var(--nord6);
 }
 
 h2, h3, h4, h5, h6, list, table, form, details {
-  color: var(--nord5) !important;
+  color: var(--nord5);
 }
 
 p, blockquote, pre, ul, ol, summary {
-  color: var(--nord4) !important;
+  color: var(--nord4);
 }
 
 mark {
-  color: var(--nord13) !important;
-  opacity: 75% !important;
+  color: var(--nord13);
+  opacity: 75%;
 }
 
 del {
-  color: var(--nord11) !important;
+  color: var(--nord11);
 }
 
 strong {
-  color: var(--nord6) !important;
+  color: var(--nord6);
 }
 
 code {
-  color: var(--nord14) !important;
+  color: var(--nord14);
 }
 
 th {
-  color: var(--nord10) !important;
+  color: var(--nord10);
 }:root {
-  --nord0: #2e3440 !important;
-  --nord1: #3b4252 !important;
-  --nord2: #434c5e !important;
-  --nord3: #4c566a !important;
-  --nord4: #d8dee9 !important;
-  --nord5: #e5e9f0 !important;
-  --nord6: #eceff4 !important;
-  --nord7: #8fbcbb !important;
-  --nord8: #88c0d0 !important;
-  --nord9: #81a1c1 !important;
-  --nord10: #5e81ac !important;
-  --nord11: #bf616a !important;
-  --nord12: #d08770 !important;
-  --nord13: #ebcb8b !important;
-  --nord14: #a3be8c !important;
-  --nord15: #b48ead !important;
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
 }

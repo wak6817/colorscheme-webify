@@ -9,11 +9,6 @@ because color schemes doesn't have a default font this project is gonna use Depa
 AwaitaMonoNerdFont, you can choose another font. Nerd Fonts are great because they have the most icons
 (https://www.nerdfonts.com/), and their open-source + free to use
 
-# warning
-
-all the tags are defined with !important (it will override all CSS connected to the HTML file)
-for code quality you should back up your existing CSS code in a `./backup/` folder in your root directory of your project
-
 # setup
 
 dependencies: Lua 5.1+ and Posix-Compatible SH (use VM on Windows)

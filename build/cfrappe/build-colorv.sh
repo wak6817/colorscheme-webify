@@ -7,5 +7,4 @@ cat "$ROOT/src/cfrappe/colorv/interactions.css" \
     "$ROOT/src/cfrappe/colorv/other.css" \
     "$ROOT/src/cfrappe/colorv/text.css" \
     "$ROOT/src/cfrappe/trans.css" \
-    | lua "$ROOT/build/add-important.lua" \
     > "$ROOT/build/dist/cfrappe/colorv/style.css" # make sure it exists empty

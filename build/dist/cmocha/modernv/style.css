@@ -1,93 +1,93 @@
 a:link {
-  color: var(--blue) !important;
+  color: var(--blue);
 }
 
 a:visited {
-  color: var(--mauve) !important;
+  color: var(--mauve);
 }
 
 button, input, textarea, select, list {
-  color: var(--text) !important;
-  background-color: var(--base) !important;
+  color: var(--text);
+  background-color: var(--base);
   border-color: var(--mauve)
 }
 
 button:disabled {
-  background-color: var(--crust) !important;
+  background-color: var(--crust);
 }/* import this file in every html test*/
 
 body {
-  background-color: var(--base) !important;
+  background-color: var(--base);
 }
 
 hr {
-  color: var(--rosewater) !important;
+  color: var(--rosewater);
 }h1 {
-  color: var(--text) !important;
+  color: var(--text);
 }
 
 h2, h3, h4, h5, h6, list, table, form, details {
-  color: var(--subtext1) !important;
+  color: var(--subtext1);
 }
 
 p, blockquote, pre, ul, ol, summary {
-  color: var(--subtext0) !important;
+  color: var(--subtext0);
 }
 
 mark {
-  color: var(--yellow) !important;
-  opacity: 75% !important;
+  color: var(--yellow);
+  opacity: 75%;
 }
 
 del {
-  color: var(--red) !important;
+  color: var(--red);
 }
 
 strong {
-  color: var(--text) !important;
+  color: var(--text);
 }
 
 code {
-  color: var(--green) !important;
+  color: var(--green);
 }
 
 th {
-  color: var(--sapphire) !important;
+  color: var(--sapphire);
 }@font-face {
-  font-family: "AdwaitaMono Nerd Font" !important;
-  src: url("/fonts/AdwaitaMonoNerdFont-Regular.ttf") !important;
+  font-family: "AdwaitaMono Nerd Font";
+  src: url("/fonts/AdwaitaMonoNerdFont-Regular.ttf");
 }
 
 * {
-  font-family: "AwaitaMono Nerd Font", monospace !important;
+  font-family: "AwaitaMono Nerd Font", monospace;
 }* {
-  margin: 15px !important;
+  margin: 15px;
 }:root {
-  --rosewater: #f5e0dc !important;
-  --flamingo: #f2cdcd !important;
-  --pink: #f5c2e7 !important;
-  --mauve: #cba6f7 !important;
-  --red: #f38ba8 !important;
-  --maroon: #eba0ac !important;
-  --peach: #fab387 !important;
-  --yellow: #f9e2af !important;
-  --green: #a6e3a1 !important;
-  --teal: #94e2d5 !important;
-  --sky: #89dceb !important;
-  --sapphire: #74c7ec !important;
-  --blue: #89b4fa !important;
-  --lavender: #b4befe !important;
+  --rosewater: #f5e0dc;
+  --flamingo: #f2cdcd;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --red: #f38ba8;
+  --maroon: #eba0ac;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --sapphire: #74c7ec;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
 
-  --text: #cdd6f4 !important;
-  --subtext1: #bac2de !important;
-  --subtext0: #a6adc8 !important;
-  --overlay2: #9399b2 !important;
-  --overlay1: #7f849c !important;
-  --overlay0: #6c7086 !important;
-  --surface2: #585b70 !important;
-  --surface1: #45475a !important;
-  --surface0: #313244 !important;
-  --base: #1e1e2e !important;
-  --mantle: #181825 !important;
-  --crust: #11111b !important;
+  --text: #cdd6f4;
+  --subtext1: #bac2de;
+  --subtext0: #a6adc8;
+  --overlay2: #9399b2;
+  --overlay1: #7f849c;
+  --overlay0: #6c7086;
+  --surface2: #585b70;
+  --surface1: #45475a;
+  --surface0: #313244;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
 }
