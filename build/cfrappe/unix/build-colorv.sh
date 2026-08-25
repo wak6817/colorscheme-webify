@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 echo "root:$ROOT"
 
 cat "$ROOT/src/cfrappe/colorv/interactions.css" \

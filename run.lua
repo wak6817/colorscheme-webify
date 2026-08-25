@@ -1,3 +1,14 @@
+local is_windows = package.config:sub(1, 1) == "\\"
+
+local function build(script)
+    if is_windows then
+        local windows_script = script:gsub("/unix/", "/windows/"):gsub("%.sh$", ".bat")
+        os.execute('call "' .. windows_script:gsub("/", "\\") .. '"')
+    else
+        os.execute('sh "' .. script .. '"')
+    end
+end
+
 function ChooseColorscheme()
     print("Catppuccin Frappé, Catppuccin Mocha or Nord")
     local colorscheme = io.read()
@@ -9,7 +20,7 @@ function ChooseColorscheme()
     elseif colorscheme == "Nord" then
         Nord()
     else
-        print("write Catppuccin Frappe or Nord")
+        print("write Catppuccin Frappe, Catppuccin Mocha or Nord")
     end
 end
 
@@ -18,15 +29,15 @@ function Cfrappe()
     local version = io.read()
 
     if version == "*" then
-        os.execute("sh build/cfrappe/build-colorv.sh")
-        os.execute("sh build/cfrappe/build-modernv.sh")
-        os.execute("sh build/cfrappe/build-pixelv.sh")
+        build("build/cfrappe/unix/build-colorv.sh")
+        build("build/cfrappe/unix/build-modernv.sh")
+        build("build/cfrappe/unix/build-pixelv.sh")
     elseif version == "color version" then
-        os.execute("sh build/cfrappe/build-colorv.sh")
+        build("build/cfrappe/unix/build-colorv.sh")
     elseif version == "modern version" then
-        os.execute("sh build/cfrappe/build-modernv.sh")
+        build("build/cfrappe/unix/build-modernv.sh")
     elseif version == "pixel art version" then
-        os.execute("sh build/cfrappe/build-pixelv.sh")
+        build("build/cfrappe/unix/build-pixelv.sh")
     else
         print("write color version, modern version or pixel version")
         Cfrappe()
@@ -39,18 +50,18 @@ function Cmocha()
     local version = io.read()
 
     if version == "*" then
-        os.execute("sh build/cmocha/build-colorv.sh")
-        os.execute("sh build/cmocha/build-modernv.sh")
-        os.execute("sh build/cmocha/build-pixelv.sh")
+        build("build/cmocha/unix/build-colorv.sh")
+        build("build/cmocha/unix/build-modernv.sh")
+        build("build/cmocha/unix/build-pixelv.sh")
     elseif version == "color version" then
-        os.execute("sh build/cmocha/build-colorv.sh")
+        build("build/cmocha/unix/build-colorv.sh")
     elseif version == "modern version" then
-        os.execute("sh build/cmocha/build-modernv.sh")
+        build("build/cmocha/unix/build-modernv.sh")
     elseif version == "pixel art version" then
-        os.execute("sh build/cmocha/build-pixelv.sh")
+        build("build/cmocha/unix/build-pixelv.sh")
     else
         print("write color version, modern version or pixel version")
-        Cfrappe()
+        Cmocha()
     end
     print("building file in /build/dist/")
 end
@@ -60,15 +71,15 @@ function Nord()
     local version = io.read()
 
     if version == "*" then
-        os.execute("sh build/nord/build-colorv.sh")
-        os.execute("sh build/nord/build-modernv.sh")
-        os.execute("sh build/nord/build-pixelv.sh")
+        build("build/nord/unix/build-colorv.sh")
+        build("build/nord/unix/build-modernv.sh")
+        build("build/nord/unix/build-pixelv.sh")
     elseif version == "color version" then
-        os.execute("sh build/nord/build-colorv.sh")
+        build("build/nord/unix/build-colorv.sh")
     elseif version == "modern version" then
-        os.execute("sh build/nord/build-modernv.sh")
+        build("build/nord/unix/build-modernv.sh")
     elseif version == "pixel art version" then
-        os.execute("sh build/nord/build-pixelv.sh")
+        build("build/nord/unix/build-pixelv.sh")
     else
         print("write color version, modern version or pixel version")
         Nord()
