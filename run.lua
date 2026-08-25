@@ -32,6 +32,27 @@ function cfrappe()
     print("building file in /build/dist/ (could take 10 seconds)")
 end
 
+function cmocha()
+    print("color version, modern version or pixel art version")
+    local version = io.read()
+
+    if version == "*" then
+        os.execute("sh build/cmocha/build-colorv.sh")
+        os.execute("sh build/cmocha/build-modernv.sh")
+        os.execute("sh build/cmocha/build-pixelv.sh")
+    elseif version == "color version" then
+        os.execute("sh build/cmocha/build-colorv.sh")
+    elseif version == "modern version" then
+        os.execute("sh build/cmocha/build-modernv.sh")
+    elseif version == "pixel art version" then
+        os.execute("sh build/cmocha/build-pixelv.sh")
+    else
+        print("write color version, modern version or pixel version")
+        cfrappe()
+    end
+    print("building file in /build/dist/ (could take 10 seconds)")
+end
+
 function nord()
     print("color version, modern version or pixel art version")
     local version = io.read()
