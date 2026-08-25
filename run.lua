@@ -52,7 +52,7 @@ function Cmocha()
         print("write color version, modern version or pixel version")
         Cfrappe()
     end
-    print("building file in /build/dist/ (could take 10 seconds)")
+    print("building file in /build/dist/")
 end
 
 function Nord()
@@ -73,7 +73,7 @@ function Nord()
         print("write color version, modern version or pixel version")
         Nord()
     end
-    print("building file in /build/dist/<chosen lang>/<chosen version> (could take a few minutes)")
+    print("building file in /build/dist/<chosen lang>/<chosen version>")
 end
 
 ChooseColorscheme()

@@ -33,7 +33,7 @@ tag
 # demo
 
 before:
-![img.png](before.png)
+![img.png](/demo/before.png)
 
 after:
-![img_1.png](after.png)
+![img_1.png](demo/after.png)
