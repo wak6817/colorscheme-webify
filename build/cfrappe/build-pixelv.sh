@@ -12,5 +12,5 @@ cat "$ROOT/src/cfrappe/colorv/interactions.css" \
     | lua "$ROOT/build/add-important.lua" \
     > "$ROOT/build/dist/cfrappe/pixelv/style.css" # make sure it exists empty
 
-cp "$ROOT/sounds/cfrappe/sound.js" "$ROOT/build/dist/cfrappe/pixelv/"
-cp "$ROOT/sounds/cfrappe/clickbtn.wav" "$ROOT/build/dist/cfrappe/pixelv/assets/"
+cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/cfrappe/pixelv/"
+cp "$ROOT/sounds/pixelv/clickbtn.wav" "$ROOT/build/dist/cfrappe/pixelv/assets/"

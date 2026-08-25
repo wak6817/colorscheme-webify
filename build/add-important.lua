@@ -9,5 +9,3 @@ for line in io.lines() do
 
     print(output)
 end
-
-os.execute("sh done.sh")

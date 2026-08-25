@@ -1,0 +1,93 @@
+a:link {
+  color: var(--blue) !important;
+}
+
+a:visited {
+  color: var(--mauve) !important;
+}
+
+button, input, textarea, select, list {
+  color: var(--text) !important;
+  background-color: var(--base) !important;
+  border-color: var(--mauve)
+}
+
+button:disabled {
+  background-color: var(--crust) !important;
+}/* import this file in every html test*/
+
+body {
+  background-color: var(--base) !important;
+}
+
+hr {
+  color: var(--rosewater) !important;
+}h1 {
+  color: var(--text) !important;
+}
+
+h2, h3, h4, h5, h6, list, table, form, details {
+  color: var(--subtext1) !important;
+}
+
+p, blockquote, pre, ul, ol, summary {
+  color: var(--subtext0) !important;
+}
+
+mark {
+  color: var(--yellow) !important;
+  opacity: 75% !important;
+}
+
+del {
+  color: var(--red) !important;
+}
+
+strong {
+  color: var(--text) !important;
+}
+
+code {
+  color: var(--green) !important;
+}
+
+th {
+  color: var(--sapphire) !important;
+}@font-face {
+  font-family: "AdwaitaMono Nerd Font" !important;
+  src: url("/fonts/AdwaitaMonoNerdFont-Regular.ttf") !important;
+}
+
+* {
+  font-family: "AwaitaMono Nerd Font", monospace !important;
+}* {
+  margin: 15px !important;
+}:root {
+  --rosewater: #f5e0dc !important;
+  --flamingo: #f2cdcd !important;
+  --pink: #f5c2e7 !important;
+  --mauve: #cba6f7 !important;
+  --red: #f38ba8 !important;
+  --maroon: #eba0ac !important;
+  --peach: #fab387 !important;
+  --yellow: #f9e2af !important;
+  --green: #a6e3a1 !important;
+  --teal: #94e2d5 !important;
+  --sky: #89dceb !important;
+  --sapphire: #74c7ec !important;
+  --blue: #89b4fa !important;
+  --lavender: #b4befe !important;
+
+  --text: #cdd6f4 !important;
+  --subtext1: #bac2de !important;
+  --subtext0: #a6adc8 !important;
+  --overlay2: #9399b2 !important;
+  --overlay1: #7f849c !important;
+  --overlay0: #6c7086 !important;
+  --surface2: #585b70 !important;
+  --surface1: #45475a !important;
+  --surface0: #313244 !important;
+  --base: #1e1e2e !important;
+  --mantle: #181825 !important;
+  --crust: #11111b !important;
+}

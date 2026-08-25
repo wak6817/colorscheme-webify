@@ -12,5 +12,5 @@ cat "$ROOT/src/cmocha/colorv/interactions.css" \
     | lua "$ROOT/build/add-important.lua" \
     > "$ROOT/build/dist/cmocha/pixelv/style.css" # make sure it exists empty
 
-cp "$ROOT/sounds/cmocha/sound.js" "$ROOT/build/dist/cmocha/pixelv/"
-cp "$ROOT/sounds/cmocha/clickbtn.wav" "$ROOT/build/dist/cmocha/pixelv/assets/"
+cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/cmocha/pixelv/"
+cp "$ROOT/sounds/pixelv/clickbtn.wav" "$ROOT/build/dist/cmocha/pixelv/assets/"

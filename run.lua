@@ -1,17 +1,19 @@
-function chooseColorscheme()
-    print("Catppuccin Frappé or Nord")
+function ChooseColorscheme()
+    print("Catppuccin Frappé, Catppuccin Mocha or Nord")
     local colorscheme = io.read()
 
     if colorscheme == "Catppuccin Frappe" then
-        cfrappe()
+        Cfrappe()
+    elseif colorscheme == "Catppuccin Mocha" then
+        Cmocha()
     elseif colorscheme == "Nord" then
-        nord()
+        Nord()
     else
         print("write Catppuccin Frappe or Nord")
     end
 end
 
-function cfrappe()
+function Cfrappe()
     print("color version, modern version or pixel art version")
     local version = io.read()
 
@@ -27,12 +29,12 @@ function cfrappe()
         os.execute("sh build/cfrappe/build-pixelv.sh")
     else
         print("write color version, modern version or pixel version")
-        cfrappe()
+        Cfrappe()
     end
     print("building file in /build/dist/ (could take 10 seconds)")
 end
 
-function cmocha()
+function Cmocha()
     print("color version, modern version or pixel art version")
     local version = io.read()
 
@@ -48,12 +50,12 @@ function cmocha()
         os.execute("sh build/cmocha/build-pixelv.sh")
     else
         print("write color version, modern version or pixel version")
-        cfrappe()
+        Cfrappe()
     end
     print("building file in /build/dist/ (could take 10 seconds)")
 end
 
-function nord()
+function Nord()
     print("color version, modern version or pixel art version")
     local version = io.read()
 
@@ -69,9 +71,9 @@ function nord()
         os.execute("sh build/nord/build-pixelv.sh")
     else
         print("write color version, modern version or pixel version")
-        nord()
+        Nord()
     end
     print("building file in /build/dist/<chosen lang>/<chosen version> (could take a few minutes)")
 end
 
-chooseColorscheme()
+ChooseColorscheme()

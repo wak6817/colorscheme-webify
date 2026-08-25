@@ -2,28 +2,27 @@
 
 some small CSS files you can import to make your website catppuccin frappe themed
 
-there are 2 versions of the project: the default version with only the colors (```/src/colorv/```) and there is a
-version with the colors, margins and font included (```/src/fullv/```)
+there are 2 versions of the project: the default version with only the colors (`/src/colorv/`) and there is a
+version with the colors, margins and font included (`/src/fullv/`)
 
 because color schemes doesn't have a default font this project is gonna use DepartureMonoNerdFont and
 AwaitaMonoNerdFont, you can choose another font. Nerd Fonts are great because they have the most icons
-(https://www.nerdfonts.com/), and their open-source + free
+(https://www.nerdfonts.com/), and their open-source + free to use
 
 # warning
 
 all the tags are defined with !important (it will override all CSS connected to the HTML file)
-for code quality you should back up your existing CSS code in a ```./backup/``` folder in your root directory of your
-project
+for code quality you should back up your existing CSS code in a `./backup/` folder in your root directory of your project
 
 # setup
 
 dependencies: Lua 5.1+ and Posix-Compatible SH (use VM on Windows)
 
-clone the GitHub repo: ```git clone https://www.github.com/wak6817/colorscheme-webify.git``` open a shell in the root
-folder of the project and run ```lua run.lua```, choose color version for only the color stylesheet or choose full
+clone the GitHub repo: `git clone https://www.github.com/wak6817/colorscheme-webify.git` open a shell in the root
+folder of the project and run `lua run.lua`, choose color version for only the color stylesheet or choose full
 version for the colors, fonts and margins
 
-copy the ```colorv.css``` file, ```modernv.css``` or ```pixelv``` + ```clickbtn``` version to your project and assign it
+copy the `colorv.css` file, `modernv.css` or `pixelv` + `clickbtn` version to your project and assign it
 to every HTML file, it will overwrite all your non-!important CSS attributes automatically
 
 # api
@@ -38,5 +37,3 @@ before:
 
 after:
 ![img_1.png](after.png)
-
-special thanks to https://www.github.com/anti-machine
