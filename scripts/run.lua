@@ -72,7 +72,7 @@ function Cfrappe()
         print("write color version, modern version or pixel version")
         Cfrappe()
     end
-    print("building file in /build/dist/ (could take 10 seconds)")
+    print("building file in /build/dist/")
 end
 
 function Cmocha()

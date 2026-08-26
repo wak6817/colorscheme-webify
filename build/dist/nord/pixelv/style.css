@@ -69,9 +69,9 @@ th {
 }
 
 * {
-  font-family: "DepartureMono Nerd Font", monospace;
+  font-family: "DepartureMono Nerd Font";
 }* {
-  margin: 0;
+  border-radius: 0;
 }:root {
   --nord0: #2e3440;
   --nord1: #3b4252;

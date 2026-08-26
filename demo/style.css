@@ -1,93 +1,126 @@
 a:link {
-  color: var(--blue);
+    color: var(--nord9);
 }
 
 a:visited {
-  color: var(--mauve);
+    color: var(--nord15);
 }
 
-button, input, textarea, select, list {
-  color: var(--text);
-  background-color: var(--base);
-  border-color: var(--mauve)
+button,
+input,
+textarea,
+select,
+ul,
+ol {
+    color: var(--nord5);
+    background-color: var(--nord1);
+    border: 1px solid var(--nord15);
 }
 
 button:disabled {
-  background-color: var(--crust);
-}/* import this file in every html test*/
+    background-color: var(--nord0);
+}
+
+/* import this file in every html test*/
 
 body {
-  background-color: var(--base);
+    background-color: var(--nord1);
 }
 
 hr {
-  color: var(--rosewater);
-}h1, dt {
-  color: var(--text);
+    border-color: var(--nord7);
 }
 
-h2, h3, h4, h5, h6, dd, table, form, details {
-  color: var(--subtext1);
+h1,
+dt {
+    color: var(--nord6);
 }
 
-p, blockquote, pre, ul, ol, summary {
-  color: var(--subtext0);
+h2,
+h3,
+h4,
+h5,
+h6,
+dd,
+table,
+form,
+details {
+    color: var(--nord5);
+}
+
+p,
+blockquote,
+pre,
+ul,
+ol,
+summary {
+    color: var(--nord4);
 }
 
 mark {
-  color: var(--yellow);
-  opacity: 75%;
+    color: var(--nord13);
+    opacity: 75%;
 }
 
 del {
-  color: var(--red);
+    color: var(--nord11);
 }
 
 strong {
-  color: var(--text);
+    color: var(--nord6);
 }
 
 code {
-  color: var(--green);
+    color: var(--nord14);
 }
 
 th {
-  color: var(--sapphire);
-}@font-face {
-  font-family: "AdwaitaMono Nerd Font";
-  src: url("/fonts/AdwaitaMonoNerdFont-Regular.ttf");
+    color: var(--nord10);
+}
+
+@font-face {
+    font-family: "AdwaitaMono Nerd Font";
+    src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
+}
+
+@font-face {
+    font-family: "AdwaitaMono Nerd Font Bold";
+    src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Bold.ttf");
+}
+
+@font-face {
+    font-family: "AdwaitaMono Nerd Font Italic";
+    src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Italic.ttf");
+}
+
+@font-face {
+    font-family: "AdwaitaMono Nerd Font Bold Italic";
+    src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-BoldItalic.ttf");
 }
 
 * {
-  font-family: "AwaitaMono Nerd Font", monospace;
-}* {
-  margin: 15px;
-}:root {
-  --rosewater: #f5e0dc;
-  --flamingo: #f2cdcd;
-  --pink: #f5c2e7;
-  --mauve: #cba6f7;
-  --red: #f38ba8;
-  --maroon: #eba0ac;
-  --peach: #fab387;
-  --yellow: #f9e2af;
-  --green: #a6e3a1;
-  --teal: #94e2d5;
-  --sky: #89dceb;
-  --sapphire: #74c7ec;
-  --blue: #89b4fa;
-  --lavender: #b4befe;
+    font-family: "AdwaitaMono Nerd Font";
+}
 
-  --text: #cdd6f4;
-  --subtext1: #bac2de;
-  --subtext0: #a6adc8;
-  --overlay2: #9399b2;
-  --overlay1: #7f849c;
-  --overlay0: #6c7086;
-  --surface2: #585b70;
-  --surface1: #45475a;
-  --surface0: #313244;
-  --base: #1e1e2e;
-  --mantle: #181825;
-  --crust: #11111b;
+* {
+    border-radius: 15px;
+}
+
+:root {
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
 }

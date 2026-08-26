@@ -74,9 +74,9 @@ th {
 }
 
 * {
-  font-family: "AdwaitaMono Nerd Font", monospace;
+  font-family: "AdwaitaMono Nerd Font";
 }* {
-  margin: 15px;
+  border-radius: 15px;
 }:root {
   --nord0: #2e3440;
   --nord1: #3b4252;
