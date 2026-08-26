@@ -1,3 +1,5 @@
+# build script: /scripts/run.lua
+
 # colorscheme-webify
 
 some small CSS files you can import to make your website catppuccin frappe themed
@@ -15,7 +17,7 @@ dependencies: Lua 5.1+
 run the dependency install script for your os
 
 clone the GitHub repo: `git clone https://www.github.com/wak6817/colorscheme-webify.git` open a shell in the root
-folder of the project and run `lua run.lua`, choose color version for only the color stylesheet or choose full
+folder of the project and run `lua scripts/run.lua`, choose color version for only the color stylesheet or choose full
 version for the colors, fonts and margins
 
 copy the `colorv.css` file, `modernv.css` or `pixelv` + `clickbtn` version to your project and assign it
