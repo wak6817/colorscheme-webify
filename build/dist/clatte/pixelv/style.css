@@ -6,10 +6,10 @@ a:visited {
   color: var(--mauve);
 }
 
-button, input, textarea, select, list {
+button, input, textarea, select, ul, ol {
   color: var(--text);
   background-color: var(--base);
-  border-color: var(--mauve)
+  border: 1px solid var(--mauve);
 }
 
 button:disabled {
@@ -21,7 +21,7 @@ body {
 }
 
 hr {
-  color: var(--rosewater);
+  border-color: var(--rosewater);
 }h1, dt {
   color: var(--text);
 }
@@ -55,17 +55,17 @@ th {
   color: var(--sapphire);
 }@font-face {
   font-family: "DepartureMono Nerd Font";
-  src: url("/fonts/DepartureMonoNerdFont-Regular.otf");
+  src: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFont-Regular.otf");
 }
 
 @font-face {
   font-family: "DepartureMono Nerd Font Mono";
-  src: url("/fonts/DepartureMonoNerdFontMono-Regular.otf");
+  src: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFontMono-Regular.otf");
 }
 
 @font-face {
   font-family: "DepartureMono Nerd Font Propo";
-  src: url("/fonts/DepartureMonoNerdFontPropo-Regular.otf");
+  src: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFontPropo-Regular.otf");
 }
 
 * {

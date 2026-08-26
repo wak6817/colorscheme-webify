@@ -6,10 +6,10 @@ a:visited {
   color: var(--nord15);
 }
 
-button, input, textarea, select, list {
+button, input, textarea, select, ul, ol {
   color: var(--nord5);
   background-color: var(--nord1);
-  border-color: var(--nord15)
+  border: 1px solid var(--nord15);
 }
 
 button:disabled {
@@ -21,7 +21,7 @@ body {
 }
 
 hr {
-  color: var(--nord7);
+  border-color: var(--nord7);
 }h1, dt {
   color: var(--nord6);
 }
@@ -55,26 +55,26 @@ th {
   color: var(--nord10);
 }@font-face {
   font-family: "AdwaitaMono Nerd Font";
-  src: url("/fonts/AwaitaMononerdFont/AdwaitaMonoNerdFont-Regular.ttf");
+  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
 }
 
 @font-face {
-  font-family: "AwaitaMono Nerd Font Bold";
-  src: url(/fonts/AwaitaMonoNerdFont/AdwaitaMonoNerdFont-Bold.ttf);
+  font-family: "AdwaitaMono Nerd Font Bold";
+  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Bold.ttf");
 }
 
 @font-face {
-  font-family: "AwaitaMono Nerd Font Italic";
-  src: url(/fonts/AwaitaMonoNerdFont/AdwaitaMonoNerdFont-Italic.ttf);
+  font-family: "AdwaitaMono Nerd Font Italic";
+  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Italic.ttf");
 }
 
 @font-face {
-  font-family: "AwaitaMono Nerd Font Bold Italic";
-  src: url(/fonts/AwaitaMonoNerdFont/AdwaitaMonoNerdFont-BoldItalic.ttf);
+  font-family: "AdwaitaMono Nerd Font Bold Italic";
+  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-BoldItalic.ttf");
 }
 
 * {
-  font-family: "AwaitaMono Nerd Font", monospace;
+  font-family: "AdwaitaMono Nerd Font", monospace;
 }* {
   margin: 15px;
 }:root {

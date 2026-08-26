@@ -10,7 +10,7 @@ local function build(script)
 end
 
 function ChooseColorscheme()
-    print("Catppuccin Latte, Catppuccin Frappe, Catppuccin Mocha, Nord or * for all colorschemes")
+    print("Catppuccin Latte, Catppuccin Frappe, Catppuccin Mocha or Nord")
     local colorscheme = io.read()
 
     if colorscheme == "*" then
@@ -114,7 +114,7 @@ function Nord()
         print("write color version, modern version or pixel version")
         Nord()
     end
-    print("building file in /build/dist/<chosen colorscheme>/<chosen type>")
+    print("building file in /build/dist/chosen-colorscheme/chosen-version/ (could take 10 seconds)")
 end
 
 ChooseColorscheme()

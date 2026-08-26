@@ -6,10 +6,10 @@ a:visited {
   color: var(--nord15);
 }
 
-button, input, textarea, select, list {
+button, input, textarea, select, ul, ol {
   color: var(--nord5);
   background-color: var(--nord1);
-  border-color: var(--nord15)
+  border: 1px solid var(--nord15);
 }
 
 button:disabled {
@@ -21,7 +21,7 @@ body {
 }
 
 hr {
-  color: var(--nord7);
+  border-color: var(--nord7);
 }h1, dt {
   color: var(--nord6);
 }

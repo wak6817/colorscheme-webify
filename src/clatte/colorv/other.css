@@ -5,5 +5,5 @@ body {
 }
 
 hr {
-  color: var(--rosewater);
+  border-color: var(--rosewater);
 }

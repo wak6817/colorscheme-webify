@@ -8,9 +8,9 @@ there are multible versions of the project, their CSS files are in /src/chosen-c
 
 because color schemes doesn't have a default font this project is gonna use DepartureMonoNerdFont or
 AwaitaMonoNerdFont, you can choose another font. Nerd Fonts are great because they have the most icons
-(https://www.nerdfonts.com/), and their open-source + free to use
+and their open-source + free to use (https://www.nerdfonts.com/)
 
-# setup
+# building your own versions
 
 dependencies: Lua 5.1+
 run the dependency install script for your os
@@ -20,7 +20,7 @@ folder of the project and run `lua scripts/run.lua`, choose color version for on
 version for the colors, fonts and margins
 
 copy the `colorv.css` file, `modernv.css` or `pixelv` + `clickbtn` version to your project and assign it
-to every HTML file, it will overwrite all your non-!important CSS attributes automatically
+to every HTML file
 
 # api
 

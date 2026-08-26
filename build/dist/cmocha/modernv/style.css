@@ -6,10 +6,10 @@ a:visited {
   color: var(--mauve);
 }
 
-button, input, textarea, select, list {
+button, input, textarea, select, ul, ol {
   color: var(--text);
   background-color: var(--base);
-  border-color: var(--mauve)
+  border: 1px solid var(--mauve);
 }
 
 button:disabled {
@@ -21,7 +21,7 @@ body {
 }
 
 hr {
-  color: var(--rosewater);
+  border-color: var(--rosewater);
 }h1, dt {
   color: var(--text);
 }
@@ -55,11 +55,11 @@ th {
   color: var(--sapphire);
 }@font-face {
   font-family: "AdwaitaMono Nerd Font";
-  src: url("/fonts/AdwaitaMonoNerdFont-Regular.ttf");
+  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
 }
 
 * {
-  font-family: "AwaitaMono Nerd Font", monospace;
+  font-family: "AdwaitaMono Nerd Font", monospace;
 }* {
   margin: 15px;
 }:root {
