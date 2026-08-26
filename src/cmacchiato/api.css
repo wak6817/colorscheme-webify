@@ -1,0 +1,13 @@
+@import url("trans.css");
+
+.error {
+  color: var(--red);
+}
+
+.warning {
+  color: var(--peach);
+}
+
+.success {
+  color: var(--green);
+}
