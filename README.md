@@ -4,8 +4,7 @@
 
 some small CSS files you can import to make your website catppuccin frappe themed
 
-there are 2 versions of the project: the default version with only the colors (`/src/colorv/`) and there is a
-version with the colors, margins and font included (`/src/fullv/`)
+there are multible versions of the project, their CSS files are in /src/chosen-colorscheme/chosen-version
 
 because color schemes doesn't have a default font this project is gonna use DepartureMonoNerdFont or
 AwaitaMonoNerdFont, you can choose another font. Nerd Fonts are great because they have the most icons
@@ -29,7 +28,7 @@ there are 3 classes that you can use in your website: error, warning and success
 
 # demo
 
-before (Catppuccin Frappe):
+before (Catppuccin Frappe pixel art):
 ![img.png](/demo/before.png)
 
 after:

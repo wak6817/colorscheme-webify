@@ -84,7 +84,7 @@ function Nord()
         print("write color version, modern version or pixel version")
         Nord()
     end
-    print("building file in /build/dist/<chosen lang>/<chosen version>")
+    print("building file in /build/dist/<chosen colorscheme>/<chosen type>")
 end
 
 ChooseColorscheme()
