@@ -61,7 +61,7 @@ th {
 * {
   font-family: "AdwaitaMono Nerd Font", monospace;
 }* {
-  margin: 15px;
+  border-radius: 15px;
 }:root {
   --rosewater: #f5e0dc;
   --flamingo: #f2cdcd;

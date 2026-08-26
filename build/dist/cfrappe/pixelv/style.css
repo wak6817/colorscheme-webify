@@ -71,7 +71,7 @@ th {
 * {
   font-family: "DepartureMono Nerd Font", monospace;
 }* {
-  margin: 0;
+  border-radius: 0;
 }:root {
   --rosewater: #f2d5cf;
   --flamingo: #eebebe;
