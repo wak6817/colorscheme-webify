@@ -1,4 +1,6 @@
-# build script: /scripts/run.lua
+# build script: scripts/run.lua
+
+# scripts/ contains development tools
 
 # colorscheme-webify
 
