@@ -28,8 +28,8 @@ there are 3 classes that you can use in your website: error, warning and success
 
 # demo
 
-before (Catppuccin Frappe pixel art):
-![img.png](/demo/before.png)
+before (Catppuccin Mocha modern version):
+![before.png](/demo/before.png)
 
 after:
-![img_1.png](demo/after.png)
+![after.png](demo/after.png)
