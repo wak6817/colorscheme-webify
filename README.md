@@ -2,7 +2,7 @@
 
 some small CSS files you can import to make your website catppuccin frappe themed
 
-there are multible versions of the project, their CSS files are in '/src/chosen-colorscheme/chosen-version'
+there are multible versions of the project, their CSS files are in `/src/chosen-colorscheme/chosen-version`
 
 # api
 
