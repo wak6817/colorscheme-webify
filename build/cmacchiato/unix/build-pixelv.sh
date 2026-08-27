@@ -1,7 +1,6 @@
 #!/bin/sh
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
-echo "root:$ROOT"
 
 cat "$ROOT/src/cmacchiato/colorv/interactions.css" \
     "$ROOT/src/cmacchiato/colorv/other.css" \
