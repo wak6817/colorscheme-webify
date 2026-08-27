@@ -1,9 +1,9 @@
 a:link {
-    color: var(--blue);
+    color: var(--coment);
 }
 
 a:visited {
-    color: var(--mauve);
+    color: var(--purple);
 }
 
 button,
@@ -12,28 +12,28 @@ textarea,
 select,
 ul,
 ol {
-    color: var(--text);
-    background-color: var(--base);
-    border: 1px solid var(--mauve);
+    color: var(--foreground);
+    background-color: var(--background);
+    border: 1px solid var(--current-line);
 }
 
 button:disabled {
-    background-color: var(--crust);
+    background-color: var(--selection);
 }
 
-/* import this file in every html test*/
+/* import this file in every html test */
 
 body {
-    background-color: var(--base);
+    background-color: var(--background);
 }
 
 hr {
-    border-color: var(--rosewater);
+    border-color: var(--pink);
 }
 
 h1,
 dt {
-    color: var(--text);
+    color: var(--foreground);
 }
 
 h2,
@@ -45,7 +45,7 @@ dd,
 table,
 form,
 details {
-    color: var(--subtext1);
+    color: var(--foreground);
 }
 
 p,
@@ -54,7 +54,7 @@ pre,
 ul,
 ol,
 summary {
-    color: var(--subtext0);
+    color: var(--foreground);
 }
 
 mark {
@@ -67,7 +67,7 @@ del {
 }
 
 strong {
-    color: var(--text);
+    color: var(--foreground);
 }
 
 code {
@@ -75,7 +75,7 @@ code {
 }
 
 th {
-    color: var(--sapphire);
+    color: var(--current-line);
 }
 
 @font-face {
@@ -92,31 +92,16 @@ th {
 }
 
 :root {
-    --rosewater: #f4dbd6;
-    --flamingo: #f0c6c6;
-    --pink: #f5bde6;
-    --mauve: #c6a0f6;
-    --red: #ed8796;
-    --maroon: #ee99a0;
-    --peach: #f5a97f;
-    --yellow: #eed49f;
-    --green: #a6da95;
-    --teal: #8bd5ca;
-    --sky: #91d7e3;
-    --sapphire: #7dc4e4;
-    --blue: #8aadf4;
-    --lavender: #b7bdf8;
-
-    --text: #cad3f5;
-    --subtext1: #b8c0e0;
-    --subtext0: #a5adcb;
-    --overlay2: #939ab7;
-    --overlay1: #8087a2;
-    --overlay0: #6e738d;
-    --surface2: #5b6078;
-    --surface1: #494d64;
-    --surface0: #363a4f;
-    --base: #24273a;
-    --mantle: #1e2030;
-    --crust: #181926;
+    --background: #282A36;
+    /* watch out with CSS tag background */
+    --current-line: #6272A4;
+    --selection: #44475A;
+    --foreground: #F8F8F2;
+    --comment: #6272A4;
+    --red: #FF5555;
+    --orange: #FFB86C;
+    --yellow: #F1FA8C;
+    --green: #50FA7B;
+    --purple: #BD93F9;
+    --pink: #FF79C6;
 }

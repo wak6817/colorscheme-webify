@@ -10,11 +10,11 @@ local function build(script)
 end
 
 function ChooseColorscheme()
-    print("Catppuccin Latte, Catppuccin Frappe, Catppuccin Macchiato, Catppuccin Mocha or Nord")
+    print("Catppuccin Latte, Catppuccin Frappe, Catppuccin Macchiato, Catppuccin Mocha, Dracula or Nord")
     local colorscheme = io.read()
 
     if colorscheme == "*" then
-        for _, scheme in ipairs({ "clatte", "cfrappe", "cmacchiato", "cmocha", "nord" }) do
+        for _, scheme in ipairs({ "clatte", "cfrappe", "cmacchiato", "cmocha", "dracula", "nord" }) do
             for _, version in ipairs({ "colorv", "modernv", "pixelv" }) do
                 build("build/" .. scheme .. "/unix/build-" .. version .. ".sh")
             end
@@ -117,6 +117,27 @@ function Cmocha()
         Cmocha()
     end
     print("building file in /build/dist/")
+end
+
+function Dracula()
+    print("color version, modern version or pixel art version")
+    local version = io.read()
+
+    if version == "*" then
+        build("build/dracula/unix/build-colorv.sh")
+        build("build/dracula/unix/build-modernv.sh")
+        build("build/dracula/unix/build-pixelv.sh")
+    elseif version == "color version" then
+        build("build/dracula/unix/build-colorv.sh")
+    elseif version == "modern version" then
+        build("build/dracula/unix/build-modernv.sh")
+    elseif version == "pixel art version" then
+        build("build/dracula/unix/build-pixelv.sh")
+    else
+        print("write color version, modern version or pixel version")
+        Dracula()
+    end
+    print("building file in /build/dist/chosen-colorscheme/chosen-version/ (could take 10 seconds)")
 end
 
 function Nord()
