@@ -1,6 +1,8 @@
 #!/bin/sh
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
+. "$ROOT/build/debug-unix.sh"
+debug_build "$ROOT" "$ROOT/build/dist/cmacchiato/modernv/style.css"
 
 cat "$ROOT/src/cmacchiato/colorv/interactions.css" \
     "$ROOT/src/cmacchiato/colorv/other.css" \

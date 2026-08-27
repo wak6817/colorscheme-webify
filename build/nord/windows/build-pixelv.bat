@@ -1,6 +1,7 @@
 @echo off
 set "ROOT=%~dp0..\..\.."
 for %%I in ("%ROOT%") do set "ROOT=%%~fI"
+call "%ROOT%\build\debug-windows.bat" "%ROOT%" "%ROOT%\build\dist\nord\pixelv\style.css"
 
 if not exist "%ROOT%\build\dist\nord\pixelv\assets" mkdir "%ROOT%\build\dist\nord\pixelv\assets"
 

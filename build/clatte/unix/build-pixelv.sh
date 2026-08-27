@@ -1,6 +1,8 @@
 #!/bin/sh
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
+. "$ROOT/build/debug-unix.sh"
+debug_build "$ROOT" "$ROOT/build/dist/clatte/pixelv/style.css"
 
 cat "$ROOT/src/clatte/colorv/interactions.css" \
     "$ROOT/src/clatte/colorv/other.css" \
