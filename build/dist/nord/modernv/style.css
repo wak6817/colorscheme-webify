@@ -14,7 +14,7 @@ button, input, textarea, select, ul, ol {
 
 button:disabled {
   background-color: var(--nord0);
-}/* import this file in every html test*/
+}/* import this file in every html test */
 
 body {
   background-color: var(--nord1);
