@@ -10,3 +10,5 @@ cat "$ROOT/src/cfrappe/colorv/interactions.css" \
     "$ROOT/src/cfrappe/trans.css" \
     "$ROOT/src/cfrappe/api.css" \
     > "$ROOT/build/dist/cfrappe/modernv/style.css" # make sure it exists empty
+cp "$ROOT/sounds/modernv/sound.js" "$ROOT/build/dist/cfrappe/modernv/"
+cp "$ROOT/sounds/modernv/clickbtn.wav" "$ROOT/build/dist/cfrappe/modernv/assets/"
