@@ -11,7 +11,7 @@
         "Macchiato",
         "modernv",
         "Nord",
-        "pixelv"
-    ],
-    "shellcheck.customArgs": ["-x"]
+        "pixelv",
+        "webify"
+    ]
 }
