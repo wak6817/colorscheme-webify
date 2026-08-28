@@ -1,8 +1,6 @@
 #!/bin/sh
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
-. "$ROOT/build/debug-unix.sh"
-debug_build "$ROOT" "$ROOT/build/dist/dracula/pixelv/style.css"
 
 cat "$ROOT/src/dracula/colorv/interactions.css" \
     "$ROOT/src/dracula/colorv/other.css" \
@@ -10,6 +8,7 @@ cat "$ROOT/src/dracula/colorv/interactions.css" \
     "$ROOT/src/dracula/pixelv/fonts.css" \
     "$ROOT/src/dracula/pixelv/margins.css" \
     "$ROOT/src/dracula/trans.css" \
+    "$ROOT/src/dracula/api.css" \
     > "$ROOT/build/dist/dracula/pixelv/style.css" # make sure it exists empty
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/dracula/pixelv/"

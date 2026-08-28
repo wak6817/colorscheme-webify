@@ -1,8 +1,6 @@
 #!/bin/sh
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
-. "$ROOT/build/debug-unix.sh"
-debug_build "$ROOT" "$ROOT/build/dist/cfrappe/pixelv/style.css"
 
 cat "$ROOT/src/cfrappe/colorv/interactions.css" \
     "$ROOT/src/cfrappe/colorv/other.css" \
@@ -10,6 +8,7 @@ cat "$ROOT/src/cfrappe/colorv/interactions.css" \
     "$ROOT/src/cfrappe/pixelv/fonts.css" \
     "$ROOT/src/cfrappe/pixelv/margins.css" \
     "$ROOT/src/cfrappe/trans.css" \
+    "$ROOT/src/cfrappe/api.css" \
     > "$ROOT/build/dist/cfrappe/pixelv/style.css" # make sure it exists empty
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/cfrappe/pixelv/"

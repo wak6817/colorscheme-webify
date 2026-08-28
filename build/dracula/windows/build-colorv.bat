@@ -5,4 +5,4 @@ call "%ROOT%\build\debug-windows.bat" "%ROOT%" "%ROOT%\build\dist\dracula\colorv
 
 if not exist "%ROOT%\build\dist\dracula\colorv" mkdir "%ROOT%\build\dist\dracula\colorv"
 
-type "%ROOT%\src\dracula\colorv\interactions.css" "%ROOT%\src\dracula\colorv\other.css" "%ROOT%\src\dracula\colorv\text.css" "%ROOT%\src\dracula\trans.css" > "%ROOT%\build\dist\dracula\colorv\style.css"
+type "%ROOT%\src\dracula\colorv\interactions.css" "%ROOT%\src\dracula\colorv\other.css" "%ROOT%\src\dracula\colorv\text.css" "%ROOT%\src\dracula\trans.css" "%ROOT%\src\dracula\api.css" > "%ROOT%\build\dist\dracula\colorv\style.css"

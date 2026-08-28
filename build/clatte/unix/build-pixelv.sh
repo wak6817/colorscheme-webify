@@ -1,8 +1,6 @@
 #!/bin/sh
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
-. "$ROOT/build/debug-unix.sh"
-debug_build "$ROOT" "$ROOT/build/dist/clatte/pixelv/style.css"
 
 cat "$ROOT/src/clatte/colorv/interactions.css" \
     "$ROOT/src/clatte/colorv/other.css" \
@@ -10,6 +8,7 @@ cat "$ROOT/src/clatte/colorv/interactions.css" \
     "$ROOT/src/clatte/pixelv/fonts.css" \
     "$ROOT/src/clatte/pixelv/margins.css" \
     "$ROOT/src/clatte/trans.css" \
+    "$ROOT/src/clatte/api.css" \
     > "$ROOT/build/dist/clatte/pixelv/style.css" # make sure it exists empty
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/clatte/pixelv/"

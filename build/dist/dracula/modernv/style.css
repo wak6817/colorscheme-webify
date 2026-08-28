@@ -74,4 +74,24 @@ th {
   --green: #50FA7B;
   --purple: #BD93F9;
   --pink: #FF79C6;
+}@import url("trans.css");
+
+.error {
+  color: var(--red);
+}
+
+.warning {
+  color: var(--orange);
+}
+
+.success {
+  color: var(--green);
+}
+
+.highlight {
+  color: var(--foreground);
+}
+
+.info {
+  color: var(--comment);
 }

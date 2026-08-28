@@ -1,8 +1,6 @@
 #!/bin/sh
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
-. "$ROOT/build/debug-unix.sh"
-debug_build "$ROOT" "$ROOT/build/dist/cmacchiato/pixelv/style.css"
 
 cat "$ROOT/src/cmacchiato/colorv/interactions.css" \
     "$ROOT/src/cmacchiato/colorv/other.css" \
@@ -10,6 +8,7 @@ cat "$ROOT/src/cmacchiato/colorv/interactions.css" \
     "$ROOT/src/cmacchiato/pixelv/fonts.css" \
     "$ROOT/src/cmacchiato/pixelv/margins.css" \
     "$ROOT/src/cmacchiato/trans.css" \
+    "$ROOT/src/cmacchiato/api.css" \
     > "$ROOT/build/dist/cmacchiato/pixelv/style.css" # make sure it exists empty
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/cmacchiato/pixelv/"
