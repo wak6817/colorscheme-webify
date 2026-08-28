@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# Print build details only when enabled in the project config.
 debug_build() {
     root="$1"
     output="$2"
