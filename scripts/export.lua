@@ -28,6 +28,12 @@ local function valid_name(name)
     return name and name:match("^[%w_-]+$") ~= nil
 end
 
+local function read_path(prompt)
+    io.write(prompt)
+    io.flush()
+    return io.read("*l")
+end
+
 local function extract_colors(css)
     local colors = {}
 
@@ -43,16 +49,22 @@ local function json_escape(value)
 end
 
 local function export_theme()
-    print("colorscheme to export: cfrappe, clatte, cmocha or nord")
+    print("colorscheme to export: cfrappe, clatte, cmocha, dracula or nord")
     local colorscheme = io.read()
 
-    if colorscheme == "nord" then
-        print("nord is not supported")
+    if colorscheme == "nord" or colorscheme == "dracula" then
+        print("not supported yet")
         return
     end
 
     if not valid_name(colorscheme) then
-        print("write cfrappe, clatte, cmocha or nord")
+        print("write cfrappe, clatte, cmocha, dracula or nord")
+        return
+    end
+
+    local destination = read_path("where should exported.jsonc be saved? ")
+    if not destination or destination == "" then
+        print("destination is required")
         return
     end
 
@@ -80,8 +92,9 @@ local function export_theme()
     end
 
     output = output .. "  }\n}\n"
-    write_file("build/dist/exported.json", output)
-    print("exported to build/dist/exported.json")
+    local output_path = destination .. "/exported.jsonc"
+    write_file(output_path, output)
+    print("exported to " .. output_path)
 end
 
 export_theme()
