@@ -11,3 +11,11 @@
 .success {
   color: var(--nord14);
 }
+
+.highlight {
+  color: var(--nord5);
+}
+
+.info {
+  color: var(--nord10);
+}

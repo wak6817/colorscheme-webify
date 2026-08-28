@@ -11,3 +11,11 @@
 .success {
   color: var(--green);
 }
+
+.highlight {
+  color: var(--text);
+}
+
+.info {
+  color: var(--blue);
+}

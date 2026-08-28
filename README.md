@@ -6,7 +6,7 @@ there are multible versions of the project, their CSS files are in `/src/chosen-
 
 # api
 
-there are 3 classes that you can use in your website: error, warning and success. they will color the text of your HTML tag
+there are 3 classes that you can use in your website: error, warning, success, highlight and info. they will color the text of your HTML tag
 
 # demo
 
