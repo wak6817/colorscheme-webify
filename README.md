@@ -1,6 +1,10 @@
 # README.md
 
+<<<<<<< HEAD
 [subreddit](https://www.reddit.com/r/colorscheme_webify/)
+=======
+[my reddit posts](https://www.reddit.com/user/Special-Lawyer-7069/submitted/)
+>>>>>>> 91e90dd (fixed typo in README.md)
 
 this project gives you ready-made css themes for websites. it lets you build a color palette, add fonts and spacing, and then copy the generated stylesheet into your own app or site.
 
