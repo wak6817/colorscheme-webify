@@ -2,6 +2,8 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
+mkdir -p "$ROOT/build/dist/dracula/colorv"
+
 cat "$ROOT/src/dracula/colorv/interactions.css" \
     "$ROOT/src/dracula/colorv/other.css" \
     "$ROOT/src/dracula/colorv/text.css" \

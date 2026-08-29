@@ -2,6 +2,8 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
+mkdir -p "$ROOT/build/dist/cmocha/pixelv/assets" "$ROOT/build/dist/cmocha/assets"
+
 cat "$ROOT/src/cmocha/colorv/interactions.css" \
     "$ROOT/src/cmocha/colorv/other.css" \
     "$ROOT/src/cmocha/colorv/text.css" \
@@ -14,3 +16,5 @@ cat "$ROOT/src/cmocha/colorv/interactions.css" \
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/cmocha/pixelv/"
 cp "$ROOT/sounds/pixelv/clickbtn.wav" "$ROOT/build/dist/cmocha/pixelv/assets/"
+
+cp -r "$ROOT/icons" "$ROOT/build/dist/cmocha/assets/icons"

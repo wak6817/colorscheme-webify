@@ -2,6 +2,8 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
+mkdir -p "$ROOT/build/dist/nord/modernv/assets" "$ROOT/build/dist/nord/assets"
+
 cat "$ROOT/src/nord/colorv/interactions.css" \
     "$ROOT/src/nord/colorv/other.css" \
     "$ROOT/src/nord/colorv/text.css" \
@@ -14,3 +16,5 @@ cat "$ROOT/src/nord/colorv/interactions.css" \
 
 cp "$ROOT/sounds/modernv/sound.js" "$ROOT/build/dist/nord/modernv/"
 cp "$ROOT/sounds/modernv/clickbtn.wav" "$ROOT/build/dist/nord/modernv/assets/"
+
+cp -r "$ROOT/icons" "$ROOT/build/dist/nord/assets/icons"

@@ -2,6 +2,8 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
+mkdir -p "$ROOT/build/dist/cmocha/colorv"
+
 cat "$ROOT/src/cmocha/colorv/interactions.css" \
     "$ROOT/src/cmocha/colorv/other.css" \
     "$ROOT/src/cmocha/colorv/text.css" \

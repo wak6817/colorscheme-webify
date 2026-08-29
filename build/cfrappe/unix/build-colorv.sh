@@ -2,6 +2,8 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
+mkdir -p "$ROOT/build/dist/cfrappe/colorv"
+
 cat "$ROOT/src/cfrappe/colorv/interactions.css" \
     "$ROOT/src/cfrappe/colorv/other.css" \
     "$ROOT/src/cfrappe/colorv/text.css" \

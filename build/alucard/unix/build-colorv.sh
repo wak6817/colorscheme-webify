@@ -2,6 +2,8 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
+mkdir -p "$ROOT/build/dist/alucard/colorv"
+
 cat "$ROOT/src/alucard/colorv/interactions.css" \
     "$ROOT/src/alucard/colorv/other.css" \
     "$ROOT/src/alucard/colorv/text.css" \

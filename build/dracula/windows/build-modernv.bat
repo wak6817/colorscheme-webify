@@ -1,9 +1,0 @@
-@echo off
-set "ROOT=%~dp0..\..\.."
-for %%I in ("%ROOT%") do set "ROOT=%%~fI"
-if not exist "%ROOT%\build\dist\dracula\modernv\assets" mkdir "%ROOT%\build\dist\dracula\modernv\assets"
-
-type "%ROOT%\src\dracula\colorv\interactions.css" "%ROOT%\src\dracula\colorv\other.css" "%ROOT%\src\dracula\colorv\text.css" "%ROOT%\src\dracula\modernv\fonts.css" "%ROOT%\src\dracula\modernv\margins.css" "%ROOT%\src\dracula\trans.css" "%ROOT%\src\dracula\api.css" "%ROOT%\src\templates.css" > "%ROOT%\build\dist\dracula\modernv\style.css"
-
-copy /y "%ROOT%\sounds\modernv\sound.js" "%ROOT%\build\dist\dracula\modernv\" > nul
-copy /y "%ROOT%\sounds\modernv\clickbtn.wav" "%ROOT%\build\dist\dracula\modernv\assets\" > nul

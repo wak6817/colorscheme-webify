@@ -2,6 +2,8 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
+mkdir -p "$ROOT/build/dist/cmacchiato/colorv"
+
 cat "$ROOT/src/cmacchiato/colorv/interactions.css" \
     "$ROOT/src/cmacchiato/colorv/other.css" \
     "$ROOT/src/cmacchiato/colorv/text.css" \
