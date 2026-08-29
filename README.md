@@ -2,4 +2,4 @@
 
 some small CSS files you can import in your webpage to make your website use a existing colorscheme in your project
 
-nothing here yet xd
+goto `CONTRIBUTING.md` and read line 6 t/m 9 for downloading and using it
