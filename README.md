@@ -1,6 +1,6 @@
 # README.md
 
-[my reddit page](https://www.reddit.com/user/Special-Lawyer-7069/submitted/)
+[my reddit posts](https://www.reddit.com/user/Special-Lawyer-7069/submitted/)
 
 some small CSS files you can import in your webpage to make your website use a existing colorscheme in your project
 
