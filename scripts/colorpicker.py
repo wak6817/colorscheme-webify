@@ -12,7 +12,7 @@ COLOR_PATTERN = re.compile(
 
 def load_palettes():
 	palettes = {}
-	for palette_file in sorted((ROOT_DIR / "themes").glob("*/trans.css")):
+	for palette_file in sorted((ROOT_DIR / "src").glob("*/trans.css")):
 		colors = COLOR_PATTERN.findall(palette_file.read_text(encoding="utf-8"))
 		if colors:
 			palettes[palette_file.parent.name] = colors

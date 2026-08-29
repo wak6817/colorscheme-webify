@@ -55,7 +55,7 @@ th {
   color: var(--current-line);
 }@font-face {
   font-family: "AdwaitaMono Nerd Font";
-  themes: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
+  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
 }
 
 * {

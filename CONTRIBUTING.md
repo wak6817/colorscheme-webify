@@ -1,9 +1,9 @@
 # building your own versions
 
-dependencies: Lua 5.1+
+dependencies: Lua 5.1+ and Python3+
 run the dependency install script for your os
 
-clone the GitHub repo: `git clone https://www.github.com/wak6817/colorscheme-webify.git` open a shell in the root
+clone the GitHub repo: `git clone https://www.github.com/wak6817/htmlppp.git` open a shell in the root
 folder of the project and run `lua scripts/run.lua`, choose color version for only the color stylesheet or choose full
 version for the colors, fonts and margins
 

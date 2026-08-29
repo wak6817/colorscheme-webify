@@ -2,13 +2,13 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
-cat "$ROOT/themes/cmocha/colorv/interactions.css" \
-    "$ROOT/themes/cmocha/colorv/other.css" \
-    "$ROOT/themes/cmocha/colorv/text.css" \
-    "$ROOT/themes/cmocha/modernv/fonts.css" \
-    "$ROOT/themes/cmocha/modernv/margins.css" \
-    "$ROOT/themes/cmocha/trans.css" \
-    "$ROOT/themes/cmocha/api.css" \
+cat "$ROOT/src/cmocha/colorv/interactions.css" \
+    "$ROOT/src/cmocha/colorv/other.css" \
+    "$ROOT/src/cmocha/colorv/text.css" \
+    "$ROOT/src/cmocha/modernv/fonts.css" \
+    "$ROOT/src/cmocha/modernv/margins.css" \
+    "$ROOT/src/cmocha/trans.css" \
+    "$ROOT/src/cmocha/api.css" \
     > "$ROOT/build/dist/cmocha/modernv/style.css" # make sure it exists empty
 cp "$ROOT/sounds/modernv/sound.js" "$ROOT/build/dist/cmocha/modernv/"
 cp "$ROOT/sounds/modernv/clickbtn.wav" "$ROOT/build/dist/cmocha/modernv/assets/"

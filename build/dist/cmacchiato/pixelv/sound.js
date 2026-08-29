@@ -1,10 +1,10 @@
-const scriptUrl = document.currentScript?.themes || document.baseURI;
+const scriptUrl = document.currentScript?.src || document.baseURI;
 const buttonSfx = new Audio(new URL("./assets/clickbtn.wav", scriptUrl));
 
 buttonSfx.addEventListener(
   "error",
   () => {
-    buttonSfx.themes = new URL("./clickbtn.wav", scriptUrl);
+    buttonSfx.src = new URL("./clickbtn.wav", scriptUrl);
   },
   { once: true },
 );

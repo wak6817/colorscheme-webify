@@ -55,17 +55,17 @@ th {
   color: var(--current-line);
 }@font-face {
   font-family: "DepartureMono Nerd Font";
-  themes: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFont-Regular.otf");
+  src: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFont-Regular.otf");
 }
 
 @font-face {
   font-family: "DepartureMono Nerd Font Mono";
-  themes: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFontMono-Regular.otf");
+  src: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFontMono-Regular.otf");
 }
 
 @font-face {
   font-family: "DepartureMono Nerd Font Propo";
-  themes: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFontPropo-Regular.otf");
+  src: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFontPropo-Regular.otf");
 }
 
 * {

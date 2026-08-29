@@ -55,22 +55,22 @@ th {
   color: var(--nord10);
 }@font-face {
   font-family: "AdwaitaMono Nerd Font";
-  themes: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
+  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
 }
 
 @font-face {
   font-family: "AdwaitaMono Nerd Font Bold";
-  themes: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Bold.ttf");
+  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Bold.ttf");
 }
 
 @font-face {
   font-family: "AdwaitaMono Nerd Font Italic";
-  themes: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Italic.ttf");
+  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Italic.ttf");
 }
 
 @font-face {
   font-family: "AdwaitaMono Nerd Font Bold Italic";
-  themes: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-BoldItalic.ttf");
+  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-BoldItalic.ttf");
 }
 
 * {
