@@ -7,4 +7,5 @@ cat "$ROOT/src/dracula/colorv/interactions.css" \
     "$ROOT/src/dracula/colorv/text.css" \
     "$ROOT/src/dracula/trans.css" \
     "$ROOT/src/dracula/api.css" \
+    "$ROOT/src/templates.css" \
     > "$ROOT/build/dist/dracula/colorv/style.css" # make sure it exists empty

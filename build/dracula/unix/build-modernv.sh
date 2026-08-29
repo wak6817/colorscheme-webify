@@ -9,6 +9,8 @@ cat "$ROOT/src/dracula/colorv/interactions.css" \
     "$ROOT/src/dracula/modernv/margins.css" \
     "$ROOT/src/dracula/trans.css" \
     "$ROOT/src/dracula/api.css" \
+    "$ROOT/src/templates.css" \
     > "$ROOT/build/dist/dracula/modernv/style.css" # make sure it exists empty
+
 cp "$ROOT/sounds/modernv/sound.js" "$ROOT/build/dist/dracula/modernv/"
 cp "$ROOT/sounds/modernv/clickbtn.wav" "$ROOT/build/dist/dracula/modernv/assets/"

@@ -7,4 +7,5 @@ cat "$ROOT/src/alucard/colorv/interactions.css" \
     "$ROOT/src/alucard/colorv/text.css" \
     "$ROOT/src/alucard/trans.css" \
     "$ROOT/src/alucard/api.css" \
+    "$ROOT/src/templates.css" \
     > "$ROOT/build/dist/alucard/colorv/style.css" # make sure it exists empty

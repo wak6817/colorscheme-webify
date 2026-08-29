@@ -9,6 +9,7 @@ cat "$ROOT/src/cmacchiato/colorv/interactions.css" \
     "$ROOT/src/cmacchiato/pixelv/margins.css" \
     "$ROOT/src/cmacchiato/trans.css" \
     "$ROOT/src/cmacchiato/api.css" \
+    "$ROOT/src/templates.css" \
     > "$ROOT/build/dist/cmacchiato/pixelv/style.css" # make sure it exists empty
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/cmacchiato/pixelv/"

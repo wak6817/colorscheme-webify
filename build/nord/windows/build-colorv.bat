@@ -3,4 +3,4 @@ set "ROOT=%~dp0..\..\.."
 for %%I in ("%ROOT%") do set "ROOT=%%~fI"
 if not exist "%ROOT%\build\dist\nord\colorv" mkdir "%ROOT%\build\dist\nord\colorv"
 
-type "%ROOT%\src\nord\colorv\interactions.css" "%ROOT%\src\nord\colorv\other.css" "%ROOT%\src\nord\colorv\text.css" "%ROOT%\src\nord\trans.css" "%ROOT%\src\nord\api.css" > "%ROOT%\build\dist\nord\colorv\style.css"
+type "%ROOT%\src\nord\colorv\interactions.css" "%ROOT%\src\nord\colorv\other.css" "%ROOT%\src\nord\colorv\text.css" "%ROOT%\src\nord\trans.css" "%ROOT%\src\nord\api.css" "%ROOT%\src\templates.css" > "%ROOT%\build\dist\nord\colorv\style.css"

@@ -9,6 +9,7 @@ cat "$ROOT/src/clatte/colorv/interactions.css" \
     "$ROOT/src/clatte/pixelv/margins.css" \
     "$ROOT/src/clatte/trans.css" \
     "$ROOT/src/clatte/api.css" \
+    "$ROOT/src/templates.css" \
     > "$ROOT/build/dist/clatte/pixelv/style.css" # make sure it exists empty
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/clatte/pixelv/"

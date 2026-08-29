@@ -9,6 +9,7 @@ cat "$ROOT/src/alucard/colorv/interactions.css" \
     "$ROOT/src/alucard/pixelv/margins.css" \
     "$ROOT/src/alucard/trans.css" \
     "$ROOT/src/alucard/api.css" \
+    "$ROOT/src/templates.css" \
     > "$ROOT/build/dist/alucard/pixelv/style.css" # make sure it exists empty
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/alucard/pixelv/"

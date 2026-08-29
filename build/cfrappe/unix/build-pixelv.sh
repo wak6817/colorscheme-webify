@@ -9,6 +9,7 @@ cat "$ROOT/src/cfrappe/colorv/interactions.css" \
     "$ROOT/src/cfrappe/pixelv/margins.css" \
     "$ROOT/src/cfrappe/trans.css" \
     "$ROOT/src/cfrappe/api.css" \
+    "$ROOT/src/templates.css" \
     > "$ROOT/build/dist/cfrappe/pixelv/style.css" # make sure it exists empty
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/cfrappe/pixelv/"
