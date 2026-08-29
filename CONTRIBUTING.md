@@ -10,11 +10,9 @@ copy the `colorv.css` file, `modernv.css` or `pixelv` + `clickbtn` version to yo
 
 use the custom CSS color macros that are defined in each pallete folder
 
-fonts
+nerdfonts
 
-because color schemes doesn't have a default font this project is gonna use DepartureMonoNerdFont or
-AwaitaMonoNerdFont, you can choose another font. Nerd Fonts are great because they have the most icons
-and their open-source + free to use. [click here to head to their webiste](https://www.nerdfonts.com/)
+because colorschemes doesn't have a default font; this project is gonna use DepartureMonoNerdFont for the pixel art version and AwaitaMonoNerdFont for the modern version, you can choose another font. Nerd Fonts are great because they have the most icons and their open-source + free to use. [click here to head to their webiste](https://www.nerdfonts.com/)
 
 please leave a pull request!
 
