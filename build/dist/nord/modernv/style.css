@@ -6,12 +6,7 @@ a:visited {
   color: var(--nord15);
 }
 
-button,
-input,
-textarea,
-select,
-ul,
-ol {
+button, input, textarea, select, ul, ol {
   color: var(--nord5);
   background-color: var(--nord1);
   border: 1px solid var(--nord15);
@@ -19,7 +14,7 @@ ol {
 
 button:disabled {
   background-color: var(--nord0);
-} /* import this file in every html test */
+}/* import this file in every html test */
 
 body {
   background-color: var(--nord1);
@@ -27,30 +22,15 @@ body {
 
 hr {
   border-color: var(--nord7);
-}
-h1,
-dt {
+}h1, dt {
   color: var(--nord6);
 }
 
-h2,
-h3,
-h4,
-h5,
-h6,
-dd,
-table,
-form,
-details {
+h2, h3, h4, h5, h6, dd, table, form, details {
   color: var(--nord5);
 }
 
-p,
-blockquote,
-pre,
-ul,
-ol,
-summary {
+p, blockquote, pre, ul, ol, summary {
   color: var(--nord4);
 }
 
@@ -73,8 +53,7 @@ code {
 
 th {
   color: var(--nord10);
-}
-@font-face {
+}@font-face {
   font-family: "AdwaitaMono Nerd Font";
   themes: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
 }
@@ -99,8 +78,7 @@ th {
 }
 * {
   border-radius: 15px;
-}
-:root {
+}:root {
   --nord0: #2e3440;
   --nord1: #3b4252;
   --nord2: #434c5e;
@@ -117,8 +95,7 @@ th {
   --nord13: #ebcb8b;
   --nord14: #a3be8c;
   --nord15: #b48ead;
-}
-@import url("trans.css");
+}@import url("trans.css");
 
 .error {
   color: var(--nord11);
