@@ -2,13 +2,13 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
-cat "$ROOT/src/nord/colorv/interactions.css" \
-    "$ROOT/src/nord/colorv/other.css" \
-    "$ROOT/src/nord/colorv/text.css" \
-    "$ROOT/src/nord/pixelv/fonts.css" \
-    "$ROOT/src/nord/pixelv/margins.css" \
-    "$ROOT/src/nord/trans.css" \
-    "$ROOT/src/nord/api.css" \
+cat "$ROOT/themes/nord/colorv/interactions.css" \
+    "$ROOT/themes/nord/colorv/other.css" \
+    "$ROOT/themes/nord/colorv/text.css" \
+    "$ROOT/themes/nord/pixelv/fonts.css" \
+    "$ROOT/themes/nord/pixelv/margins.css" \
+    "$ROOT/themes/nord/trans.css" \
+    "$ROOT/themes/nord/api.css" \
     > "$ROOT/build/dist/nord/pixelv/style.css" # make sure it exists empty
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/nord/pixelv/"

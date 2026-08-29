@@ -6,7 +6,12 @@ a:visited {
   color: var(--mauve);
 }
 
-button, input, textarea, select, ul, ol {
+button,
+input,
+textarea,
+select,
+ul,
+ol {
   color: var(--text);
   background-color: var(--base);
   border: 1px solid var(--mauve);
@@ -14,7 +19,7 @@ button, input, textarea, select, ul, ol {
 
 button:disabled {
   background-color: var(--crust);
-}/* import this file in every html test */
+} /* import this file in every html test */
 
 body {
   background-color: var(--base);
@@ -22,15 +27,30 @@ body {
 
 hr {
   border-color: var(--rosewater);
-}h1, dt {
+}
+h1,
+dt {
   color: var(--text);
 }
 
-h2, h3, h4, h5, h6, dd, table, form, details {
+h2,
+h3,
+h4,
+h5,
+h6,
+dd,
+table,
+form,
+details {
   color: var(--subtext1);
 }
 
-p, blockquote, pre, ul, ol, summary {
+p,
+blockquote,
+pre,
+ul,
+ol,
+summary {
   color: var(--subtext0);
 }
 
@@ -53,16 +73,19 @@ code {
 
 th {
   color: var(--sapphire);
-}@font-face {
+}
+@font-face {
   font-family: "AdwaitaMono Nerd Font";
-  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
+  themes: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
 }
 
 * {
   font-family: "AdwaitaMono Nerd Font";
-}* {
+}
+* {
   border-radius: 15px;
-}:root {
+}
+:root {
   --rosewater: #f4dbd6;
   --flamingo: #f0c6c6;
   --pink: #f5bde6;
@@ -90,7 +113,8 @@ th {
   --base: #24273a;
   --mantle: #1e2030;
   --crust: #181926;
-}@import url("trans.css");
+}
+@import url("trans.css");
 
 .error {
   color: var(--red);

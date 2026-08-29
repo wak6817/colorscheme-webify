@@ -2,9 +2,9 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
-cat "$ROOT/src/cmocha/colorv/interactions.css" \
-    "$ROOT/src/cmocha/colorv/other.css" \
-    "$ROOT/src/cmocha/colorv/text.css" \
-    "$ROOT/src/cmocha/trans.css" \
-    "$ROOT/src/cmocha/api.css" \
+cat "$ROOT/themes/cmocha/colorv/interactions.css" \
+    "$ROOT/themes/cmocha/colorv/other.css" \
+    "$ROOT/themes/cmocha/colorv/text.css" \
+    "$ROOT/themes/cmocha/trans.css" \
+    "$ROOT/themes/cmocha/api.css" \
     > "$ROOT/build/dist/cmocha/colorv/style.css" # make sure it exists empty

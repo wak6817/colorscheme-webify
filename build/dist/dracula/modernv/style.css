@@ -6,7 +6,12 @@ a:visited {
   color: var(--purple);
 }
 
-button, input, textarea, select, ul, ol {
+button,
+input,
+textarea,
+select,
+ul,
+ol {
   color: var(--foreground);
   background-color: var(--background);
   border: 1px solid var(--current-line);
@@ -14,7 +19,7 @@ button, input, textarea, select, ul, ol {
 
 button:disabled {
   background-color: var(--selection);
-}/* import this file in every html test */
+} /* import this file in every html test */
 
 body {
   background-color: var(--background);
@@ -22,15 +27,30 @@ body {
 
 hr {
   border-color: var(--pink);
-}h1, dt {
+}
+h1,
+dt {
   color: var(--foreground);
 }
 
-h2, h3, h4, h5, h6, dd, table, form, details {
+h2,
+h3,
+h4,
+h5,
+h6,
+dd,
+table,
+form,
+details {
   color: var(--foreground);
 }
 
-p, blockquote, pre, ul, ol, summary {
+p,
+blockquote,
+pre,
+ul,
+ol,
+summary {
   color: var(--foreground);
 }
 
@@ -53,29 +73,33 @@ code {
 
 th {
   color: var(--current-line);
-}@font-face {
+}
+@font-face {
   font-family: "AdwaitaMono Nerd Font";
-  src: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
+  themes: url("/fonts/AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf");
 }
 
 * {
   font-family: "AdwaitaMono Nerd Font";
-}* {
+}
+* {
   border-radius: 15px;
-}:root {
-  --background: #282A36; /* watch out with CSS tag background */
-  --current-line: #6272A4;
-  --selection: #44475A;
-  --foreground: #F8F8F2;
-  --comment: #6272A4;
-  --red: #FF5555;
-  --orange: #FFB86C;
-  --yellow: #F1FA8C;
-  --green: #50FA7B;
-  --cyan: #8BE9FD;
-  --purple: #BD93F9;
-  --pink: #FF79C6;
-}@import url("trans.css");
+}
+:root {
+  --background: #282a36; /* watch out with CSS tag background */
+  --current-line: #6272a4;
+  --selection: #44475a;
+  --foreground: #f8f8f2;
+  --comment: #6272a4;
+  --red: #ff5555;
+  --orange: #ffb86c;
+  --yellow: #f1fa8c;
+  --green: #50fa7b;
+  --cyan: #8be9fd;
+  --purple: #bd93f9;
+  --pink: #ff79c6;
+}
+@import url("trans.css");
 
 .error {
   color: var(--red);

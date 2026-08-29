@@ -68,7 +68,7 @@ local function export_theme()
         return
     end
 
-    local css = read_file("src/" .. colorscheme .. "/trans.css")
+    local css = read_file("themes/" .. colorscheme .. "/trans.css")
     if not css then
         print("colorscheme does not exist")
         return
