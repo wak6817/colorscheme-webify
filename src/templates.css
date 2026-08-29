@@ -12,8 +12,8 @@
 
     background: rgb(255 255 255 / 20%);
 
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+      backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
 
-    /* define size and padding inline */
+    /* define size and padding using inline CSS */
 }
