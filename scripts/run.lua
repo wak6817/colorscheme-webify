@@ -10,11 +10,11 @@ local function build(script)
 end
 
 function ChooseColorscheme()
-    print("Catppuccin Latte, Catppuccin Frappe, Catppuccin Macchiato, Catppuccin Mocha, Dracula or Nord")
+    print("Catppuccin Latte, Catppuccin Frappe, Catppuccin Macchiato, Catppuccin Mocha, Dracula, Alucard or Nord")
     local colorscheme = io.read()
 
     if colorscheme == "*" then
-        for _, scheme in ipairs({ "clatte", "cfrappe", "cmacchiato", "cmocha", "dracula", "nord" }) do
+        for _, scheme in ipairs({ "clatte", "cfrappe", "cmacchiato", "cmocha", "dracula", "alucard", "nord" }) do
             for _, version in ipairs({ "colorv", "modernv", "pixelv" }) do
                 build("build/" .. scheme .. "/unix/build-" .. version .. ".sh")
             end
@@ -28,6 +28,10 @@ function ChooseColorscheme()
         Cmacchiato()
     elseif colorscheme == "Catppuccin Mocha" then
         Cmocha()
+    elseif colorscheme == "Dracula" then
+        Dracula()
+    elseif colorscheme == "Alucard" then
+        Alucard()
     elseif colorscheme == "Nord" then
         Nord()
     else
@@ -136,6 +140,27 @@ function Dracula()
     else
         print("write color version, modern version or pixel version")
         Dracula()
+    end
+    print("building file in /build/dist/chosen-colorscheme/chosen-version/ (could take 10 seconds)")
+end
+
+function Alucard()
+    print("color version, modern version or pixel art version")
+    local version = io.read()
+
+    if version == "*" then
+        build("build/alucard/unix/build-colorv.sh")
+        build("build/alucard/unix/build-modernv.sh")
+        build("build/alucard/unix/build-pixelv.sh")
+    elseif version == "color version" then
+        build("build/alucard/unix/build-colorv.sh")
+    elseif version == "modern version" then
+        build("build/alucard/unix/build-modernv.sh")
+    elseif version == "pixel art version" then
+        build("build/alucard/unix/build-pixelv.sh")
+    else
+        print("write color version, modern version or pixel version")
+        Alucard()
     end
     print("building file in /build/dist/chosen-colorscheme/chosen-version/ (could take 10 seconds)")
 end

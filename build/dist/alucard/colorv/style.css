@@ -53,38 +53,19 @@ code {
 
 th {
   color: var(--current-line);
-}@font-face {
-  font-family: "DepartureMono Nerd Font";
-  src: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFont-Regular.otf");
-}
-
-@font-face {
-  font-family: "DepartureMono Nerd Font Mono";
-  src: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFontMono-Regular.otf");
-}
-
-@font-face {
-  font-family: "DepartureMono Nerd Font Propo";
-  src: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFontPropo-Regular.otf");
-}
-
-* {
-  font-family: "DepartureMono Nerd Font";
-}* {
-  border-radius: 0;
 }:root {
-  --background: #282A36; /* watch out with CSS tag background */
-  --current-line: #6272A4;
-  --selection: #44475A;
-  --foreground: #F8F8F2;
-  --comment: #6272A4;
-  --red: #FF5555;
-  --orange: #FFB86C;
-  --yellow: #F1FA8C;
-  --green: #50FA7B;
-  --cyan: #8BE9FD;
-  --purple: #BD93F9;
-  --pink: #FF79C6;
+  --background: #FFFBEB; /* watch out with CSS tag background */
+  --current-line: #6C664B;
+  --selection: #CFCFDE;
+  --foreground: #1F1F1F;
+  --comment: #6C664B;
+  --red: #CB3A2A;
+  --orange: #A34D14;
+  --yellow: #846E15;
+  --green: #14710A;
+  --cyan: #036A96;
+  --purple: #644AC9;
+  --pink: #A3144D;
 }@import url("trans.css");
 
 .error {
