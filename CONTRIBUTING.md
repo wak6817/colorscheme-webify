@@ -33,7 +33,7 @@ if you are on linux or macos, you can use the shell scripts in the scripts folde
 
 ## clone and run
 
-```bash
+```sh
 git clone https://github.com/wak6817/colorscheme-webify.git
 cd colorscheme-webify
 lua scripts/run.lua
@@ -93,7 +93,7 @@ after building the project, copy the generated files into another website or app
 
 for example:
 
-```bash
+```sh
 cp build/dist/dracula/modernv/style.css /path/to/your/project/styles/
 cp -r build/dist/dracula/modernv/assets /path/to/your/project/assets/
 ```
