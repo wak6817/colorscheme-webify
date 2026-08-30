@@ -76,7 +76,7 @@ class PaletteWindow:
 		entry = ttk.Entry(row, textvariable=value, width=10)
 		entry.pack(side="left", padx=(0, 8))
 		entry.bind("<FocusIn>", lambda event: entry.select_range(0, "end"))
-		ttk.Button(row, text="Copy", command=lambda: self.copy_value(value.get())).pack(
+		ttk.Button(row, text="copy", command=lambda: self.copy_value(value.get())).pack(
 			side="left"
 		)
 
