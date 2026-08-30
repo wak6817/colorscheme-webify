@@ -1,5 +1,3 @@
-/* import this file in every html test */
-
 body {
   background-color: var(--nord1);
 }

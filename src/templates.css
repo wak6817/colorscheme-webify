@@ -1,19 +1,25 @@
-.background { /* assign this to your background */
-    position: fixed;
-    inset: 0;
+.background {
+  /* assign this to your background */
+  object-fit: cover;
+  position: fixed;
 
-    object-fit: cover;
-    z-index: -1;
+  z-index: -1;
+  inset: 0;
 }
 
 .blur-self {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 
-    background: rgb(255 255 255 / 20%);
+  background: rgb(255 255 255 / 20%);
 
-      backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
 
-    /* define size and padding using inline CSS */
+  /* define size and padding using inline CSS */
+}
+
+.top {
+  /* for simpler code */
+  z-index: 1;
 }
