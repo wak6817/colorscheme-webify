@@ -1,15 +1,5 @@
-local is_windows = package.config:sub(1, 1) == "\\"
-
 local function build(script)
-  if is_windows then
-    local windows_script = script
-        :gsub("/unix/", "/windows/")
-        :gsub("%.sh$", ".bat")
-
-    os.execute('call "' .. windows_script:gsub("/", "\\") .. '"')
-  else
-    os.execute('sh "' .. script .. '"')
-  end
+  os.execute('sh "' .. script .. '"')
 end
 
 local schemes = {
