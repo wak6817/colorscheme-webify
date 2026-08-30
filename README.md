@@ -173,5 +173,6 @@ that is all you need to start using the theme in a custom project.
 
 [before](/demo/before.png)
 [after](/demo/after.png)
+[used imports](/demo/used-imports.png)
 
 for more project details, see `CONTRIBUTING.md`.
