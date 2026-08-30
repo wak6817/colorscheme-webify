@@ -6,12 +6,7 @@ a:visited {
   color: var(--mauve);
 }
 
-button,
-input,
-textarea,
-select,
-ul,
-ol {
+button, input, textarea, select, ul, ol {
   color: var(--text);
   background-color: var(--base);
   border: 1px solid var(--mauve);
@@ -19,38 +14,22 @@ ol {
 
 button:disabled {
   background-color: var(--crust);
-}
-
-body {
+}body {
   background-color: var(--base);
 }
 
 hr {
   border-color: var(--rosewater);
 }
-h1,
-dt {
+h1, dt {
   color: var(--text);
 }
 
-h2,
-h3,
-h4,
-h5,
-h6,
-dd,
-table,
-form,
-details {
+h2, h3, h4, h5, h6, dd, table, form, details {
   color: var(--subtext1);
 }
 
-p,
-blockquote,
-pre,
-ul,
-ol,
-summary {
+p, blockquote, pre, ul, ol, summary {
   color: var(--subtext0);
 }
 
@@ -73,8 +52,7 @@ code {
 
 th {
   color: var(--sapphire);
-}
-@font-face {
+}@font-face {
   font-family: "DepartureMono Nerd Font";
   src: url("/fonts/DepartureMonoNerdFont/DepartureMonoNerdFont-Regular.otf");
 }
@@ -94,8 +72,7 @@ th {
 }
 * {
   border-radius: 0;
-}
-:root {
+}:root {
   --rosewater: #f2d5cf;
   --flamingo: #eebebe;
   --pink: #f4b8e4;
@@ -123,8 +100,7 @@ th {
   --base: #303446;
   --mantle: #292c3c;
   --crust: #232634;
-}
-@import url("trans.css");
+}@import url("trans.css");
 
 .error {
   color: var(--red);
@@ -144,14 +120,13 @@ th {
 
 .info {
   color: var(--blue);
-}
-.background {
+}.background {
   /* assign this to your background */
-  position: fixed;
-  inset: 0;
-
   object-fit: cover;
+  position: fixed;
+
   z-index: -1;
+  inset: 0;
 }
 
 .blur-self {
@@ -164,4 +139,9 @@ th {
   -webkit-backdrop-filter: blur(1px);
 
   /* define size and padding using inline CSS */
+}
+
+.top {
+  /* for simpler code */
+  z-index: 1;
 }
