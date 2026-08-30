@@ -120,9 +120,9 @@ this is the basic pattern:
 </html>
 ```
 
-## use sound assets
+## using sound assets
 
-if the build includes a sound file, copy the matching folder into your project and reference the script as needed:
+the modernv and pixelv includes a sound file, copy the matching folder into your project and reference the script as needed:
 
 ```html
 <script src="./assets/sound.js"></script>
@@ -130,9 +130,9 @@ if the build includes a sound file, copy the matching folder into your project a
 
 if you are using a pixel version, keep the fonts and assets together so the paths still resolve correctly.
 
-## fonts and nerd fonts
+## fonts and nerdfonts
 
-this project uses nerd font files for icons and monospace styling. the font files live in the fonts folder and are referenced by the generated css.
+this project uses nerdfont files for icons and monospace styling. the font files live in the fonts folder and are referenced by the generated css.
 
 if you want a different font, you can replace the font urls in the generated css or supply your own font files.
 
@@ -165,9 +165,13 @@ that is all you need to start using the theme in a custom project.
 
 ## notes
 
-- keep the compiled css and asset folders together
+- keep the compiled css and asset folder together
 - modernv and pixelv depend on bundled font and asset files
-- colorv is the lightest option if you only need colors
-- use the generated theme as a base and override values in your own css if needed
+- colorv is the smallest option if you only need colors
+
+## demo
+
+[before](/demo/before.png)
+[after](/demo/after.png)
 
 for more project details, see `CONTRIBUTING.md`.
