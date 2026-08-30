@@ -38,9 +38,6 @@ class PaletteWindow:
 		header = ttk.Frame(self.window, padding=(16, 14, 16, 8))
 		header.pack(fill="x")
 		ttk.Label(header, text=palette_name, style="Title.TLabel").pack(anchor="w")
-		ttk.Label(header, text="Select a value to copy or paste it elsewhere.").pack(
-			anchor="w", pady=(3, 0)
-		)
 
 		preview = tk.Frame(self.window, height=72, bg=colors[0][1])
 		preview.pack(fill="x", padx=16, pady=(4, 12))
@@ -110,10 +107,7 @@ def main():
 	style.configure("Title.TLabel", font=("TkDefaultFont", 16, "bold"))
 	main_frame = ttk.Frame(root, padding=24)
 	main_frame.pack()
-	ttk.Label(main_frame, text="Color scheme browser", style="Title.TLabel").pack(anchor="w")
-	ttk.Label(main_frame, text="Browse the project palettes and copy their hex values.").pack(
-		anchor="w", pady=(4, 18)
-	)
+	ttk.Label(main_frame, text="colorscheme browser", style="Title.TLabel").pack(anchor="w")
 
 	palette_choice = tk.StringVar(value=next(iter(palettes), ""))
 	selector = ttk.Combobox(
