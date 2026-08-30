@@ -7,7 +7,7 @@
   inset: 0;
 }
 
-.blur-self {
+.blur {
   position: relative;
   z-index: 1;
 
