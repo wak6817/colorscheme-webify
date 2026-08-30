@@ -1,4 +1,4 @@
-# contributing.md
+# CONTRIBUTING.md
 
 this project is a small css theme generator for websites and apps. it turns palette definitions into ready-to-use stylesheet files that can be copied into your own project.
 
