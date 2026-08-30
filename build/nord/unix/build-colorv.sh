@@ -10,4 +10,4 @@ cat "$ROOT/src/nord/colorv/interactions.css" \
     "$ROOT/src/nord/trans.css" \
     "$ROOT/src/nord/api.css" \
     "$ROOT/src/templates.css" \
-    > "$ROOT/build/dist/nord/colorv/style.css" # make sure it exists empty
+    > "$ROOT/build/dist/nord/colorv/style.css"

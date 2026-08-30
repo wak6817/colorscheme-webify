@@ -2,7 +2,7 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
-mkdir -p "$ROOT/build/dist/cmacchiato/pixelv/assets" "$ROOT/build/dist/cmacchiato/assets"
+mkdir -p "$ROOT/build/dist/cmacchiato/pixelv/assets/icons"
 
 cat "$ROOT/src/cmacchiato/colorv/interactions.css" \
     "$ROOT/src/cmacchiato/colorv/other.css" \
@@ -17,4 +17,4 @@ cat "$ROOT/src/cmacchiato/colorv/interactions.css" \
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/cmacchiato/pixelv/"
 cp "$ROOT/sounds/pixelv/clickbtn.wav" "$ROOT/build/dist/cmacchiato/pixelv/assets/"
 
-cp -r "$ROOT/icons" "$ROOT/build/dist/cmacchiato/assets/icons"
+cp -r "$ROOT/icons/." "$ROOT/build/dist/cmacchiato/pixelv/assets/icons/"

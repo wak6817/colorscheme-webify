@@ -2,7 +2,7 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
-mkdir -p "$ROOT/build/dist/cfrappe/modernv/assets" "$ROOT/build/dist/cfrappe/assets"
+mkdir -p "$ROOT/build/dist/cfrappe/modernv/assets/icons"
 
 cat "$ROOT/src/cfrappe/colorv/interactions.css" \
     "$ROOT/src/cfrappe/colorv/other.css" \
@@ -17,4 +17,4 @@ cat "$ROOT/src/cfrappe/colorv/interactions.css" \
 cp "$ROOT/sounds/modernv/sound.js" "$ROOT/build/dist/cfrappe/modernv/"
 cp "$ROOT/sounds/modernv/clickbtn.wav" "$ROOT/build/dist/cfrappe/modernv/assets/"
 
-cp -r "$ROOT/icons" "$ROOT/build/dist/cfrappe/assets/icons"
+cp -r "$ROOT/icons/." "$ROOT/build/dist/cfrappe/modernv/assets/icons/"

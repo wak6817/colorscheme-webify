@@ -2,7 +2,7 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
-mkdir -p "$ROOT/build/dist/nord/pixelv/assets" "$ROOT/build/dist/nord/assets"
+mkdir -p "$ROOT/build/dist/nord/pixelv/assets/icons"
 
 cat "$ROOT/src/nord/colorv/interactions.css" \
     "$ROOT/src/nord/colorv/other.css" \
@@ -12,9 +12,9 @@ cat "$ROOT/src/nord/colorv/interactions.css" \
     "$ROOT/src/nord/trans.css" \
     "$ROOT/src/nord/api.css" \
     "$ROOT/src/templates.css" \
-    > "$ROOT/build/dist/nord/pixelv/style.css" # make sure it exists empty
+    > "$ROOT/build/dist/nord/pixelv/style.css"
 
 cp "$ROOT/sounds/pixelv/sound.js" "$ROOT/build/dist/nord/pixelv/"
 cp "$ROOT/sounds/pixelv/clickbtn.wav" "$ROOT/build/dist/nord/pixelv/assets/"
 
-cp -r "$ROOT/icons" "$ROOT/build/dist/nord/assets/icons"
+cp -r "$ROOT/icons/." "$ROOT/build/dist/nord/pixelv/assets/icons/"

@@ -2,7 +2,7 @@
 
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 
-mkdir -p "$ROOT/build/dist/alucard/modernv/assets" "$ROOT/build/dist/alucard/assets"
+mkdir -p "$ROOT/build/dist/alucard/modernv/assets/icons"
 
 cat "$ROOT/src/alucard/colorv/interactions.css" \
     "$ROOT/src/alucard/colorv/other.css" \
@@ -17,4 +17,4 @@ cat "$ROOT/src/alucard/colorv/interactions.css" \
 cp "$ROOT/sounds/modernv/sound.js" "$ROOT/build/dist/alucard/modernv/"
 cp "$ROOT/sounds/modernv/clickbtn.wav" "$ROOT/build/dist/alucard/modernv/assets/"
 
-cp -r "$ROOT/icons" "$ROOT/build/dist/alucard/assets/icons"
+cp -r "$ROOT/icons/." "$ROOT/build/dist/alucard/modernv/assets/icons/"
