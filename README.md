@@ -13,7 +13,7 @@ this is meant to be used as a theme source, not as a project you edit in place. 
 
 ## install
 
-you need Lua and Python installed on your machine.
+you need Python installed on your machine.
 
 ```sh
 git clone https://github.com/wak6817/colorscheme-webify.git
@@ -23,7 +23,7 @@ cd colorscheme-webify
 then run the build script from the project root:
 
 ```sh
-lua scripts/run.lua
+python3 scripts/run.py
 ```
 
 this will ask which palette you want and which version to generate.
@@ -140,7 +140,7 @@ if you want a different font, you can replace the font urls in the generated css
 ```sh
 git clone https://github.com/wak6817/colorscheme-webify.git
 cd colorscheme-webify
-lua scripts/run.lua
+python3 scripts/run.py
 ```
 
 choose:

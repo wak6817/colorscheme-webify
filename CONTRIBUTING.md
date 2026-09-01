@@ -36,7 +36,7 @@ if you are on linux or macos, you can use the shell scripts in the scripts folde
 ```sh
 git clone https://github.com/wak6817/colorscheme-webify.git
 cd colorscheme-webify
-lua scripts/run.lua
+python3 scripts/run.py
 ```
 
 when the script runs, it asks which palette and version you want to build.
