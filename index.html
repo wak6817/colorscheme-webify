@@ -1,0 +1,29 @@
+<button id="share">Share Colorscheme</button>
+
+<script>
+  document.getElementById("share").onclick = async () => {
+    const colorscheme = {
+      name: "My Colorscheme",
+      author: "wak6817",
+      jsonc: `{
+    "name": "My Colorscheme",
+    "colors": {
+        "background": "#1e1e2e",
+        "foreground": "#cdd6f4"
+    }
+}`,
+    };
+
+    const response = await fetch("https://YOUR-WORKER.workers.dev/share", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(colorscheme),
+    });
+
+    const result = await response.json();
+
+    alert("Shared! ID: " + result.id);
+  };
+</script>
