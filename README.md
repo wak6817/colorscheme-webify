@@ -1,15 +1,15 @@
 # README.md
 
-[official subreddit](https://www.reddit.com/r/colorscheme_webify/) and [my reddit posts](https://www.reddit.com/user/Special-Lawyer-7069/submitted/)
+[my reddit posts](https://www.reddit.com/user/Special-Lawyer-7069/submitted/)
 
-this project gives you ready-made css themes for websites. it lets you build a color palette, add fonts and spacing, and then copy the generated stylesheet into your own app or site.
+this project gives you ready-made CSS themes for websites. it lets you build a color palette, add fonts and spacing, and then copy the generated stylesheet into your own app or site.
 
 this is meant to be used as a theme source, not as a project you edit in place. the usual flow is:
 
 1. clone the project
-2. generate the css you want
+2. generate the CSS you want
 3. copy the build output into your project
-4. include the stylesheet in your html
+4. include the stylesheet in your HTML
 
 ## install
 
@@ -32,9 +32,9 @@ this will ask which palette you want and which version to generate.
 
 the project includes these palettes:
 
-- catppuccin
-- dracula
-- nord
+- Catppuccin
+- Dracula
+- Nord
 
 within catppuccin, you can choose:
 
@@ -45,8 +45,8 @@ within catppuccin, you can choose:
 
 within dracula, you can choose:
 
-- dracula
-- alucard
+- Dracula
+- Alucard
 
 ## choose a version
 
@@ -74,7 +74,7 @@ some versions also copy their sound assets and icon files into the same dist fol
 
 ## use in your own project
 
-copy the generated css file to your website or app.
+copy the generated CSS file to your website or app.
 
 for example, if you want to use dracula modern:
 
@@ -82,7 +82,7 @@ for example, if you want to use dracula modern:
 cp build/dist/dracula/modernv/style.css /path/to/your/project/styles/
 ```
 
-then load it in your html:
+then load it in your HTML:
 
 ```html
 <link rel="stylesheet" href="./styles/style.css" />
@@ -99,7 +99,7 @@ build/dist/dracula/modernv/
 
 you can then keep the same relative structure in your project.
 
-## include the theme in html
+## include the theme in HTML
 
 this is the basic pattern:
 
@@ -131,9 +131,9 @@ if you are using a pixel version, keep the fonts and assets together so the path
 
 ## fonts and nerdfonts
 
-this project uses nerdfont files for icons and monospace styling. the font files live in the fonts folder and are referenced by the generated css.
+this project uses nerdfont files for icons and monospace styling. the font files live in the fonts folder and are referenced by the generated CSS.
 
-if you want a different font, you can replace the font urls in the generated css or supply your own font files.
+if you want a different font, you can replace the font urls in the generated CSS or supply your own font files.
 
 ## quick example
 
@@ -164,7 +164,7 @@ that is all you need to start using the theme in a custom project.
 
 ## notes
 
-- keep the compiled css and asset folder together
+- keep the compiled CSS and asset folder together
 - modernv and pixelv depend on bundled font and asset files
 - colorv is the smallest option if you only need colors
 
